@@ -4,13 +4,81 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="/posts/3eeb.html"/>
-      <url>/posts/3eeb.html</url>
+      <title>WordPress固定链接后404的解决方法</title>
+      <link href="/posts/a485.html"/>
+      <url>/posts/a485.html</url>
       
-        <content type="html"><![CDATA[<p><span class="github-emoji" style="color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f604.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png?v8">😄</span> Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<p>一般Wordpress自带的链接是一大串数字加符号，不美观也不明确，一般要设置成固定链接，而设置成功后大部分情况访问文章，子链接都会出现404界面，我找了网上的资料，才知道需要配置伪静态链接， 一般的大型网站系统，都依赖伪静态。如果服务器的伪静态没有配置好，访问部分链接就会出现 404 的情况。</p><p>解决方法：</p><p>在nginx安装目录找到nginx的配置文件即nginx.conf ，然后进行如下配置就好</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">location / {</span><br><span class="line">            index  index.php index.html index.htm;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">if</span> (-f <span class="variable">$request_filename</span>/index.html){</span><br><span class="line">                     rewrite (.*) <span class="variable">$1</span>/index.html <span class="built_in">break</span>;</span><br><span class="line">                }</span><br><span class="line">            <span class="keyword">if</span> (-f <span class="variable">$request_filename</span>/index.php){</span><br><span class="line">                     rewrite (.*) <span class="variable">$1</span>/index.php;</span><br><span class="line">                 }</span><br><span class="line">            <span class="keyword">if</span> (!-f <span class="variable">$request_filename</span>){</span><br><span class="line">                      rewrite (.*) /index.php;</span><br><span class="line"></span><br><span class="line">                 }</span><br><span class="line">        }</span><br><span class="line">        rewrite /wp-admin$ <span class="variable">$scheme</span>://<span class="variable">$host</span><span class="variable">$uri</span>/ permanent;</span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure><p>重启nginx：</p><p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804205609.png"><br>现在访问文章，子链接就不会出现404界面了。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
+      <categories>
+          
+          <category> 日常经验 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> wordpress </tag>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>在Linux系统中安装Tomcat详细教程</title>
+      <link href="/posts/753a.html"/>
+      <url>/posts/753a.html</url>
+      
+        <content type="html"><![CDATA[<p>首先在官网下载jdk和Tomcat的压缩包</p><p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804215928.png"></p><p>这里下载jdk-8u241-linux-x64 .tar.gz</p><p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804220750.png"><br>和apache-tomcat-8.5.50.tar.gz</p><p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804220808.png"><br>然后解压jdk压缩包</p><p>tar –zxvf  jdk-8u241-linux-x64 .tar.gz</p><p>把jdk放到/usr/local/目录下，并删除原本的jdk压缩包</p><p>mv jdk1.8.0_241/ /usr/local/</p><p>rm jdk-8u241-linux-x64 .tar.gz</p><p>解压并删除原压缩包</p><p>tar –zxvf  apache-tomcat-8.5.50.tar.gz</p><p>rm apache-tomcat-8.5.50.tar.gz</p><p>重命名</p><p>mv apache-tomcat-8.5.50.tar.gz  tomcat</p><p>用pwd命令查看jdk目录</p><p>cd  /usr/local/jdk1.8.0_241</p><p>编辑/etc/profile文件</p><p>vim /etc/profile</p><p>在最后加入以下代码，配置jdk的运行环境</p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> JAVA_HOME=/usr/<span class="built_in">local</span>/jdk1.8.0_241</span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$JAVA_HOME</span>/bin:<span class="variable">$PATH</span></span><br><span class="line"><span class="built_in">export</span> CLASSPATH=.:<span class="variable">$JAVA_HOME</span>/lib/dt.java:<span class="variable">$JAVA_HOME</span>/lib/tool.jar</span><br></pre></td></tr></tbody></table></figure><p>重启服务器让它生效，输入java –version检查是否安装成功<br><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804220821.png"><br>在服务器上开放80端口，进入tomcat服务器配置为80端口<br><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804220829.png"><br>vim tomcat/conf/server.xml</p><p>然后进入tomcat的bin目录下startup.sh开启服务器。</p><p>./ startup.sh</p><p>输入服务器ip号可以进入tomcat的默认首页了。</p><p>网页所在目录为</p><p>tomcat/webapps/ROOT/index.jsp</p><p>可以删除里面的内容自己上传自己的网站到这个目录下，通过服务器访问。记得开启服务器端口号</p><p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804220837.png"><br>提示:<br>rm –rf ./*         -r代表删除  -f代表强制删除   ./代表当前目录</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术总结 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+            <tag> Tomcat </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>数据安全和数据备份的重要性</title>
+      <link href="/posts/16e4.html"/>
+      <url>/posts/16e4.html</url>
+      
+        <content type="html"><![CDATA[<p>我之前是在云服务器自己搭的一个博客网站里面写文章,2020/2/21下午，我再次进入我的博客，发现需要重新安装Wordpress，我以为安装完就可进入我的博客了，没想到安装完，里面是空的，我才发现我的数据库表全部被删了，导致我之前写的文章，资料全部没了。我还试图通过阿里云的工程师帮我找回，结果并没有</p><p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804215148.jpg"><br>吸取教训,我修改了数据库默认3306的端口，修改了ssh默认22的端口，并且密码都加长加特殊符号，设置外网ping不到本地地址， 至此我才真正意识到数据的安全和数据备份的重要性，吸取教训！！！！ </p><p>大家也可以去看看的博客:<br><a href="https://ythan.top/">https://ythan.top</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日常经验 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> wordpress </tag>
+            
+            <tag> 数据安全 </tag>
+            
+        </tags>
       
     </entry>
     
