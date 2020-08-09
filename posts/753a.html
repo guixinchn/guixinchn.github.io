@@ -30,7 +30,7 @@
     <script src="/libs/jquery/jquery.min.js"></script>
 
 <meta name="generator" content="Hexo 5.0.0"><link rel="alternate" href="/atom.xml" title="咕咕星" type="application/atom+xml">
-</head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 <body>
@@ -469,7 +469,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    383
+                    385
                 </div>
                 
 
@@ -510,8 +510,9 @@
 <p>编辑/etc/profile文件</p>
 <p>vim /etc/profile</p>
 <p>在最后加入以下代码，配置jdk的运行环境</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> JAVA_HOME=/usr/<span class="built_in">local</span>/jdk1.8.0_241</span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$JAVA_HOME</span>/bin:<span class="variable">$PATH</span></span><br><span class="line"><span class="built_in">export</span> CLASSPATH=.:<span class="variable">$JAVA_HOME</span>/lib/dt.java:<span class="variable">$JAVA_HOME</span>/lib/tool.jar</span><br></pre></td></tr></tbody></table></figure>
-
+<pre class=" language-bash"><code class="language-bash"><span class="token function">export</span> JAVA_HOME<span class="token operator">=</span>/usr/local/jdk1.8.0_241
+<span class="token function">export</span> PATH<span class="token operator">=</span><span class="token variable">$JAVA_HOME</span>/bin:<span class="token variable">$PATH</span>
+<span class="token function">export</span> CLASSPATH<span class="token operator">=</span>.:<span class="token variable">$JAVA_HOME</span>/lib/dt.java:<span class="token variable">$JAVA_HOME</span>/lib/tool.jar</code></pre>
 <p>重启服务器让它生效，输入java –version检查是否安装成功<br><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804220821.png"><br>在服务器上开放80端口，进入tomcat服务器配置为80端口<br><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804220829.png"><br>vim tomcat/conf/server.xml</p>
 <p>然后进入tomcat的bin目录下startup.sh开启服务器。</p>
 <p>./ startup.sh</p>
@@ -1363,7 +1364,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">914</span>&nbsp;字
+                class="white-color">932</span>&nbsp;字
             
             
             
