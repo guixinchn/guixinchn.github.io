@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.guixinchn.cn/"/>
-  <updated>2020-08-10T16:06:05.279Z</updated>
+  <updated>2020-08-11T10:37:45.827Z</updated>
   <id>https://www.guixinchn.cn/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MySQL忘记root密码，错误号码1045解决办法</title>
+    <link href="https://www.guixinchn.cn/posts/2020.html"/>
+    <id>https://www.guixinchn.cn/posts/2020.html</id>
+    <published>2020-08-11T10:35:19.000Z</published>
+    <updated>2020-08-11T10:37:45.827Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/guixinchn/image/august/20200811170418.png&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;停止MySQL服务&quot;&gt;&lt;a href=&quot;#停止MySQL服务&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="日常经验" scheme="https://www.guixinchn.cn/categories/%E6%97%A5%E5%B8%B8%E7%BB%8F%E9%AA%8C/"/>
+    
+    
+      <category term="MySQL" scheme="https://www.guixinchn.cn/tags/MySQL/"/>
+    
+  </entry>
   
   <entry>
     <title>高速图床picgo+typora+github+jsdelivr</title>
@@ -556,33 +584,6 @@
         
         
           &lt;h1 id=&quot;数据类型转换&quot;&gt;&lt;a href=&quot;#数据类型转换&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="汇编语言" scheme="https://www.guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
-    
-    
-      <category term="Java" scheme="https://www.guixinchn.cn/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>java_环境搭建、变量的使用</title>
-    <link href="https://www.guixinchn.cn/posts/f79d.html"/>
-    <id>https://www.guixinchn.cn/posts/f79d.html</id>
-    <published>2020-07-23T15:29:39.000Z</published>
-    <updated>2020-08-10T14:45:08.423Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Java语言开发环境搭建&quot;&gt;&lt;a href=&quot;#Java语言开发环境搭建&quot; class=&quot;headerlink&quot; title=&quot;Java语言开发环境搭建&quot;&gt;&lt;/a&gt;Java语言开发环境搭建&lt;/h1&gt;&lt;h2 id=&quot;1-Java虚拟机——JVM&quot;&gt;&lt;a
         
       
     
