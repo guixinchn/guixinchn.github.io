@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.guixinchn.cn/"/>
-  <updated>2020-08-12T06:47:54.146Z</updated>
+  <updated>2020-08-19T10:43:57.703Z</updated>
   <id>https://www.guixinchn.cn/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>jsp九大内置对象常用方法及四个作用域</title>
+    <link href="https://www.guixinchn.cn/posts/b91f.html"/>
+    <id>https://www.guixinchn.cn/posts/b91f.html</id>
+    <published>2020-08-19T10:39:39.000Z</published>
+    <updated>2020-08-19T10:43:57.703Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;九大内置对象&quot;&gt;&lt;a href=&quot;#九大内置对象&quot; class=&quot;headerlink&quot; title=&quot;九大内置对象&quot;&gt;&lt;/a&gt;九大内置对象&lt;/h1&gt;&lt;p&gt;jsp中的九大内置对象是自带的，不需要new 也能使用的对象&lt;/p&gt;
+&lt;h2 id=&quot;out：&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="汇编语言" scheme="https://www.guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+    
+    
+      <category term="JavaWeb" scheme="https://www.guixinchn.cn/tags/JavaWeb/"/>
+    
+      <category term="Jsp" scheme="https://www.guixinchn.cn/tags/Jsp/"/>
+    
+  </entry>
   
   <entry>
     <title>java_缓冲流、转换流、序列化流</title>
@@ -560,34 +590,6 @@
         
         
           &lt;h1 id=&quot;方法的定义&quot;&gt;&lt;a href=&quot;#方法的定义&quot; class=&quot;headerlink&quot; title=&quot;方法的定义&quot;&gt;&lt;/a&gt;方法的定义&lt;/h1&gt;&lt;h2 id=&quot;1-概述&quot;&gt;&lt;a href=&quot;#1-概述&quot; class=&quot;headerlink&quot; title=&quot;1
-        
-      
-    
-    </summary>
-    
-    
-      <category term="汇编语言" scheme="https://www.guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
-    
-    
-      <category term="Java" scheme="https://www.guixinchn.cn/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>java_流程控制语句、权限修饰符</title>
-    <link href="https://www.guixinchn.cn/posts/fa61.html"/>
-    <id>https://www.guixinchn.cn/posts/fa61.html</id>
-    <published>2020-07-31T13:32:55.000Z</published>
-    <updated>2020-08-10T16:06:05.272Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;判断语句&quot;&gt;&lt;a href=&quot;#判断语句&quot; class=&quot;headerlink&quot; title=&quot;判断语句&quot;&gt;&lt;/a&gt;判断语句&lt;/h1&gt;&lt;p&gt;if语句第一种格式： if&lt;/p&gt;
-&lt;pre class=&quot; language-bash&quot;&gt;&lt;code
         
       
     
