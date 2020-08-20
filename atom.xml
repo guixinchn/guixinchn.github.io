@@ -5,9 +5,9 @@
   <subtitle>世界很暗，但是你来了</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://www.guixinchn.cn/"/>
-  <updated>2020-08-19T10:43:57.703Z</updated>
-  <id>https://www.guixinchn.cn/</id>
+  <link href="https://guixinchn.cn/"/>
+  <updated>2020-08-19T10:45:23.489Z</updated>
+  <id>https://guixinchn.cn/</id>
   
   <author>
     <name>咕咕星</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>jsp九大内置对象常用方法及四个作用域</title>
-    <link href="https://www.guixinchn.cn/posts/b91f.html"/>
-    <id>https://www.guixinchn.cn/posts/b91f.html</id>
+    <link href="https://guixinchn.cn/posts/b91f.html"/>
+    <id>https://guixinchn.cn/posts/b91f.html</id>
     <published>2020-08-19T10:39:39.000Z</published>
-    <updated>2020-08-19T10:43:57.703Z</updated>
+    <updated>2020-08-19T10:45:23.489Z</updated>
     
     <summary type="html">
     
@@ -37,19 +37,19 @@
     </summary>
     
     
-      <category term="汇编语言" scheme="https://www.guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+      <category term="汇编语言" scheme="https://guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
     
     
-      <category term="JavaWeb" scheme="https://www.guixinchn.cn/tags/JavaWeb/"/>
+      <category term="JavaWeb" scheme="https://guixinchn.cn/tags/JavaWeb/"/>
     
-      <category term="Jsp" scheme="https://www.guixinchn.cn/tags/Jsp/"/>
+      <category term="Jsp" scheme="https://guixinchn.cn/tags/Jsp/"/>
     
   </entry>
   
   <entry>
     <title>java_缓冲流、转换流、序列化流</title>
-    <link href="https://www.guixinchn.cn/posts/782c.html"/>
-    <id>https://www.guixinchn.cn/posts/782c.html</id>
+    <link href="https://guixinchn.cn/posts/782c.html"/>
+    <id>https://guixinchn.cn/posts/782c.html</id>
     <published>2020-08-12T06:44:29.000Z</published>
     <updated>2020-08-12T06:47:54.146Z</updated>
     
@@ -66,19 +66,19 @@
     </summary>
     
     
-      <category term="汇编语言" scheme="https://www.guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+      <category term="汇编语言" scheme="https://guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
     
     
-      <category term="Java" scheme="https://www.guixinchn.cn/tags/Java/"/>
+      <category term="Java" scheme="https://guixinchn.cn/tags/Java/"/>
     
-      <category term="Stream" scheme="https://www.guixinchn.cn/tags/Stream/"/>
+      <category term="Stream" scheme="https://guixinchn.cn/tags/Stream/"/>
     
   </entry>
   
   <entry>
     <title>MySQL忘记root密码，错误号码1045解决办法</title>
-    <link href="https://www.guixinchn.cn/posts/2020.html"/>
-    <id>https://www.guixinchn.cn/posts/2020.html</id>
+    <link href="https://guixinchn.cn/posts/2020.html"/>
+    <id>https://guixinchn.cn/posts/2020.html</id>
     <published>2020-08-11T10:35:19.000Z</published>
     <updated>2020-08-11T10:38:47.971Z</updated>
     
@@ -96,17 +96,17 @@
     </summary>
     
     
-      <category term="日常经验" scheme="https://www.guixinchn.cn/categories/%E6%97%A5%E5%B8%B8%E7%BB%8F%E9%AA%8C/"/>
+      <category term="日常经验" scheme="https://guixinchn.cn/categories/%E6%97%A5%E5%B8%B8%E7%BB%8F%E9%AA%8C/"/>
     
     
-      <category term="MySQL" scheme="https://www.guixinchn.cn/tags/MySQL/"/>
+      <category term="MySQL" scheme="https://guixinchn.cn/tags/MySQL/"/>
     
   </entry>
   
   <entry>
     <title>高速图床picgo+typora+github+jsdelivr</title>
-    <link href="https://www.guixinchn.cn/posts/c770.html"/>
-    <id>https://www.guixinchn.cn/posts/c770.html</id>
+    <link href="https://guixinchn.cn/posts/c770.html"/>
+    <id>https://guixinchn.cn/posts/c770.html</id>
     <published>2020-08-10T15:53:55.000Z</published>
     <updated>2020-08-10T16:06:05.279Z</updated>
     
@@ -123,19 +123,19 @@
     </summary>
     
     
-      <category term="关于博客" scheme="https://www.guixinchn.cn/categories/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/"/>
+      <category term="关于博客" scheme="https://guixinchn.cn/categories/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/"/>
     
     
-      <category term="Github" scheme="https://www.guixinchn.cn/tags/Github/"/>
+      <category term="Github" scheme="https://guixinchn.cn/tags/Github/"/>
     
-      <category term="picgo" scheme="https://www.guixinchn.cn/tags/picgo/"/>
+      <category term="picgo" scheme="https://guixinchn.cn/tags/picgo/"/>
     
   </entry>
   
   <entry>
     <title>程序员必备CDN加速远程Github仓库</title>
-    <link href="https://www.guixinchn.cn/posts/c699.html"/>
-    <id>https://www.guixinchn.cn/posts/c699.html</id>
+    <link href="https://guixinchn.cn/posts/c699.html"/>
+    <id>https://guixinchn.cn/posts/c699.html</id>
     <published>2020-08-10T13:30:55.000Z</published>
     <updated>2020-08-10T16:06:05.277Z</updated>
     
@@ -152,19 +152,19 @@
     </summary>
     
     
-      <category term="关于博客" scheme="https://www.guixinchn.cn/categories/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/"/>
+      <category term="关于博客" scheme="https://guixinchn.cn/categories/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/"/>
     
     
-      <category term="Github" scheme="https://www.guixinchn.cn/tags/Github/"/>
+      <category term="Github" scheme="https://guixinchn.cn/tags/Github/"/>
     
-      <category term="CDN" scheme="https://www.guixinchn.cn/tags/CDN/"/>
+      <category term="CDN" scheme="https://guixinchn.cn/tags/CDN/"/>
     
   </entry>
   
   <entry>
     <title>java_Lambda表达式四个最基本的函数式接口</title>
-    <link href="https://www.guixinchn.cn/posts/abbe.html"/>
-    <id>https://www.guixinchn.cn/posts/abbe.html</id>
+    <link href="https://guixinchn.cn/posts/abbe.html"/>
+    <id>https://guixinchn.cn/posts/abbe.html</id>
     <published>2020-08-09T12:32:55.000Z</published>
     <updated>2020-08-10T16:06:05.221Z</updated>
     
@@ -181,19 +181,19 @@
     </summary>
     
     
-      <category term="汇编语言" scheme="https://www.guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+      <category term="汇编语言" scheme="https://guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
     
     
-      <category term="Java" scheme="https://www.guixinchn.cn/tags/Java/"/>
+      <category term="Java" scheme="https://guixinchn.cn/tags/Java/"/>
     
-      <category term="Lambda" scheme="https://www.guixinchn.cn/tags/Lambda/"/>
+      <category term="Lambda" scheme="https://guixinchn.cn/tags/Lambda/"/>
     
   </entry>
   
   <entry>
     <title>java_List、Set、Conllections工具类</title>
-    <link href="https://www.guixinchn.cn/posts/fa53.html"/>
-    <id>https://www.guixinchn.cn/posts/fa53.html</id>
+    <link href="https://guixinchn.cn/posts/fa53.html"/>
+    <id>https://guixinchn.cn/posts/fa53.html</id>
     <published>2020-08-07T15:22:58.000Z</published>
     <updated>2020-08-10T16:06:05.223Z</updated>
     
@@ -210,19 +210,19 @@
     </summary>
     
     
-      <category term="汇编语言" scheme="https://www.guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+      <category term="汇编语言" scheme="https://guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
     
     
-      <category term="Java" scheme="https://www.guixinchn.cn/tags/Java/"/>
+      <category term="Java" scheme="https://guixinchn.cn/tags/Java/"/>
     
-      <category term="Conllection" scheme="https://www.guixinchn.cn/tags/Conllection/"/>
+      <category term="Conllection" scheme="https://guixinchn.cn/tags/Conllection/"/>
     
   </entry>
   
   <entry>
     <title>java_Collection、Map、泛型的使用</title>
-    <link href="https://www.guixinchn.cn/posts/679.html"/>
-    <id>https://www.guixinchn.cn/posts/679.html</id>
+    <link href="https://guixinchn.cn/posts/679.html"/>
+    <id>https://guixinchn.cn/posts/679.html</id>
     <published>2020-08-07T13:32:55.000Z</published>
     <updated>2020-08-10T16:06:05.218Z</updated>
     
@@ -239,19 +239,19 @@
     </summary>
     
     
-      <category term="汇编语言" scheme="https://www.guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+      <category term="汇编语言" scheme="https://guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
     
     
-      <category term="Java" scheme="https://www.guixinchn.cn/tags/Java/"/>
+      <category term="Java" scheme="https://guixinchn.cn/tags/Java/"/>
     
-      <category term="Collection" scheme="https://www.guixinchn.cn/tags/Collection/"/>
+      <category term="Collection" scheme="https://guixinchn.cn/tags/Collection/"/>
     
   </entry>
   
   <entry>
     <title>java_线程、同步、线程池</title>
-    <link href="https://www.guixinchn.cn/posts/4747.html"/>
-    <id>https://www.guixinchn.cn/posts/4747.html</id>
+    <link href="https://guixinchn.cn/posts/4747.html"/>
+    <id>https://guixinchn.cn/posts/4747.html</id>
     <published>2020-08-07T12:13:55.000Z</published>
     <updated>2020-08-10T16:06:05.274Z</updated>
     
@@ -269,19 +269,19 @@
     </summary>
     
     
-      <category term="汇编语言" scheme="https://www.guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+      <category term="汇编语言" scheme="https://guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
     
     
-      <category term="Java" scheme="https://www.guixinchn.cn/tags/Java/"/>
+      <category term="Java" scheme="https://guixinchn.cn/tags/Java/"/>
     
-      <category term="Class" scheme="https://www.guixinchn.cn/tags/Class/"/>
+      <category term="Class" scheme="https://guixinchn.cn/tags/Class/"/>
     
   </entry>
   
   <entry>
     <title>java_抽象类、接口、多态的使用</title>
-    <link href="https://www.guixinchn.cn/posts/cb67.html"/>
-    <id>https://www.guixinchn.cn/posts/cb67.html</id>
+    <link href="https://guixinchn.cn/posts/cb67.html"/>
+    <id>https://guixinchn.cn/posts/cb67.html</id>
     <published>2020-08-06T15:32:45.000Z</published>
     <updated>2020-08-10T16:06:05.260Z</updated>
     
@@ -299,19 +299,19 @@
     </summary>
     
     
-      <category term="汇编语言" scheme="https://www.guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+      <category term="汇编语言" scheme="https://guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
     
     
-      <category term="Java" scheme="https://www.guixinchn.cn/tags/Java/"/>
+      <category term="Java" scheme="https://guixinchn.cn/tags/Java/"/>
     
-      <category term="Class" scheme="https://www.guixinchn.cn/tags/Class/"/>
+      <category term="Class" scheme="https://guixinchn.cn/tags/Class/"/>
     
   </entry>
   
   <entry>
     <title>java_String类、StringBuilder类、Arrays类、Math类的使用</title>
-    <link href="https://www.guixinchn.cn/posts/dcff.html"/>
-    <id>https://www.guixinchn.cn/posts/dcff.html</id>
+    <link href="https://guixinchn.cn/posts/dcff.html"/>
+    <id>https://guixinchn.cn/posts/dcff.html</id>
     <published>2020-08-06T13:32:55.000Z</published>
     <updated>2020-08-10T16:06:05.231Z</updated>
     
@@ -328,21 +328,21 @@
     </summary>
     
     
-      <category term="汇编语言" scheme="https://www.guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+      <category term="汇编语言" scheme="https://guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
     
     
-      <category term="Java" scheme="https://www.guixinchn.cn/tags/Java/"/>
+      <category term="Java" scheme="https://guixinchn.cn/tags/Java/"/>
     
-      <category term="API" scheme="https://www.guixinchn.cn/tags/API/"/>
+      <category term="API" scheme="https://guixinchn.cn/tags/API/"/>
     
-      <category term="Class" scheme="https://www.guixinchn.cn/tags/Class/"/>
+      <category term="Class" scheme="https://guixinchn.cn/tags/Class/"/>
     
   </entry>
   
   <entry>
     <title>java_Object类、日期时间类、System类、包装类</title>
-    <link href="https://www.guixinchn.cn/posts/21ac.html"/>
-    <id>https://www.guixinchn.cn/posts/21ac.html</id>
+    <link href="https://guixinchn.cn/posts/21ac.html"/>
+    <id>https://guixinchn.cn/posts/21ac.html</id>
     <published>2020-08-06T12:32:55.000Z</published>
     <updated>2020-08-10T16:06:05.226Z</updated>
     
@@ -359,19 +359,19 @@
     </summary>
     
     
-      <category term="汇编语言" scheme="https://www.guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+      <category term="汇编语言" scheme="https://guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
     
     
-      <category term="Java" scheme="https://www.guixinchn.cn/tags/Java/"/>
+      <category term="Java" scheme="https://guixinchn.cn/tags/Java/"/>
     
-      <category term="Class" scheme="https://www.guixinchn.cn/tags/Class/"/>
+      <category term="Class" scheme="https://guixinchn.cn/tags/Class/"/>
     
   </entry>
   
   <entry>
     <title>java_内部类、匿名内部类的使用</title>
-    <link href="https://www.guixinchn.cn/posts/4ef.html"/>
-    <id>https://www.guixinchn.cn/posts/4ef.html</id>
+    <link href="https://guixinchn.cn/posts/4ef.html"/>
+    <id>https://guixinchn.cn/posts/4ef.html</id>
     <published>2020-08-05T14:32:55.000Z</published>
     <updated>2020-08-10T16:06:05.237Z</updated>
     
@@ -389,19 +389,19 @@
     </summary>
     
     
-      <category term="汇编语言" scheme="https://www.guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+      <category term="汇编语言" scheme="https://guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
     
     
-      <category term="Java" scheme="https://www.guixinchn.cn/tags/Java/"/>
+      <category term="Java" scheme="https://guixinchn.cn/tags/Java/"/>
     
-      <category term="Class" scheme="https://www.guixinchn.cn/tags/Class/"/>
+      <category term="Class" scheme="https://guixinchn.cn/tags/Class/"/>
     
   </entry>
   
   <entry>
     <title>java_static、final、super、this关键字的使用</title>
-    <link href="https://www.guixinchn.cn/posts/7aa2.html"/>
-    <id>https://www.guixinchn.cn/posts/7aa2.html</id>
+    <link href="https://guixinchn.cn/posts/7aa2.html"/>
+    <id>https://guixinchn.cn/posts/7aa2.html</id>
     <published>2020-08-05T12:32:55.000Z</published>
     <updated>2020-08-10T16:06:05.234Z</updated>
     
@@ -418,23 +418,23 @@
     </summary>
     
     
-      <category term="汇编语言" scheme="https://www.guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+      <category term="汇编语言" scheme="https://guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
     
     
-      <category term="Java" scheme="https://www.guixinchn.cn/tags/Java/"/>
+      <category term="Java" scheme="https://guixinchn.cn/tags/Java/"/>
     
-      <category term="static" scheme="https://www.guixinchn.cn/tags/static/"/>
+      <category term="static" scheme="https://guixinchn.cn/tags/static/"/>
     
-      <category term="final" scheme="https://www.guixinchn.cn/tags/final/"/>
+      <category term="final" scheme="https://guixinchn.cn/tags/final/"/>
     
-      <category term="this关键字" scheme="https://www.guixinchn.cn/tags/this%E5%85%B3%E9%94%AE%E5%AD%97/"/>
+      <category term="this关键字" scheme="https://guixinchn.cn/tags/this%E5%85%B3%E9%94%AE%E5%AD%97/"/>
     
   </entry>
   
   <entry>
     <title>java_字节流、字符流</title>
-    <link href="https://www.guixinchn.cn/posts/20e9.html"/>
-    <id>https://www.guixinchn.cn/posts/20e9.html</id>
+    <link href="https://guixinchn.cn/posts/20e9.html"/>
+    <id>https://guixinchn.cn/posts/20e9.html</id>
     <published>2020-08-04T15:32:55.000Z</published>
     <updated>2020-08-12T06:46:26.893Z</updated>
     
@@ -451,19 +451,19 @@
     </summary>
     
     
-      <category term="汇编语言" scheme="https://www.guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+      <category term="汇编语言" scheme="https://guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
     
     
-      <category term="Java" scheme="https://www.guixinchn.cn/tags/Java/"/>
+      <category term="Java" scheme="https://guixinchn.cn/tags/Java/"/>
     
-      <category term="Stream" scheme="https://www.guixinchn.cn/tags/Stream/"/>
+      <category term="Stream" scheme="https://guixinchn.cn/tags/Stream/"/>
     
   </entry>
   
   <entry>
     <title>Hexo博客部署到远程仓库（Conding、Gitee、Github）</title>
-    <link href="https://www.guixinchn.cn/posts/4592.html"/>
-    <id>https://www.guixinchn.cn/posts/4592.html</id>
+    <link href="https://guixinchn.cn/posts/4592.html"/>
+    <id>https://guixinchn.cn/posts/4592.html</id>
     <published>2020-08-04T13:32:55.000Z</published>
     <updated>2020-08-10T16:06:05.210Z</updated>
     
@@ -480,23 +480,23 @@
     </summary>
     
     
-      <category term="关于博客" scheme="https://www.guixinchn.cn/categories/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/"/>
+      <category term="关于博客" scheme="https://guixinchn.cn/categories/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/"/>
     
     
-      <category term="Hexo" scheme="https://www.guixinchn.cn/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://guixinchn.cn/tags/Hexo/"/>
     
-      <category term="Github" scheme="https://www.guixinchn.cn/tags/Github/"/>
+      <category term="Github" scheme="https://guixinchn.cn/tags/Github/"/>
     
-      <category term="Conding" scheme="https://www.guixinchn.cn/tags/Conding/"/>
+      <category term="Conding" scheme="https://guixinchn.cn/tags/Conding/"/>
     
-      <category term="Gitee" scheme="https://www.guixinchn.cn/tags/Gitee/"/>
+      <category term="Gitee" scheme="https://guixinchn.cn/tags/Gitee/"/>
     
   </entry>
   
   <entry>
     <title>MarkDown语法的详细使用教程</title>
-    <link href="https://www.guixinchn.cn/posts/ce76.html"/>
-    <id>https://www.guixinchn.cn/posts/ce76.html</id>
+    <link href="https://guixinchn.cn/posts/ce76.html"/>
+    <id>https://guixinchn.cn/posts/ce76.html</id>
     <published>2020-08-03T13:32:55.000Z</published>
     <updated>2020-08-10T16:06:05.215Z</updated>
     
@@ -513,17 +513,17 @@
     </summary>
     
     
-      <category term="关于博客" scheme="https://www.guixinchn.cn/categories/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/"/>
+      <category term="关于博客" scheme="https://guixinchn.cn/categories/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/"/>
     
     
-      <category term="MarkDown" scheme="https://www.guixinchn.cn/tags/MarkDown/"/>
+      <category term="MarkDown" scheme="https://guixinchn.cn/tags/MarkDown/"/>
     
   </entry>
   
   <entry>
     <title>java_Scanner类、Random类、ArrayList 类的使用</title>
-    <link href="https://www.guixinchn.cn/posts/c412.html"/>
-    <id>https://www.guixinchn.cn/posts/c412.html</id>
+    <link href="https://guixinchn.cn/posts/c412.html"/>
+    <id>https://guixinchn.cn/posts/c412.html</id>
     <published>2020-08-03T12:32:55.000Z</published>
     <updated>2020-08-10T16:06:05.228Z</updated>
     
@@ -540,19 +540,19 @@
     </summary>
     
     
-      <category term="汇编语言" scheme="https://www.guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+      <category term="汇编语言" scheme="https://guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
     
     
-      <category term="Java" scheme="https://www.guixinchn.cn/tags/Java/"/>
+      <category term="Java" scheme="https://guixinchn.cn/tags/Java/"/>
     
-      <category term="Class" scheme="https://www.guixinchn.cn/tags/Class/"/>
+      <category term="Class" scheme="https://guixinchn.cn/tags/Class/"/>
     
   </entry>
   
   <entry>
     <title>java_数组的定义与操作</title>
-    <link href="https://www.guixinchn.cn/posts/b06e.html"/>
-    <id>https://www.guixinchn.cn/posts/b06e.html</id>
+    <link href="https://guixinchn.cn/posts/b06e.html"/>
+    <id>https://guixinchn.cn/posts/b06e.html</id>
     <published>2020-08-02T13:32:55.000Z</published>
     <updated>2020-08-10T16:06:05.266Z</updated>
     
@@ -569,17 +569,17 @@
     </summary>
     
     
-      <category term="汇编语言" scheme="https://www.guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+      <category term="汇编语言" scheme="https://guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
     
     
-      <category term="Java" scheme="https://www.guixinchn.cn/tags/Java/"/>
+      <category term="Java" scheme="https://guixinchn.cn/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>java_方法的定义、调用、重载</title>
-    <link href="https://www.guixinchn.cn/posts/6d32.html"/>
-    <id>https://www.guixinchn.cn/posts/6d32.html</id>
+    <link href="https://guixinchn.cn/posts/6d32.html"/>
+    <id>https://guixinchn.cn/posts/6d32.html</id>
     <published>2020-08-01T12:32:55.000Z</published>
     <updated>2020-08-10T16:06:05.269Z</updated>
     
@@ -596,10 +596,10 @@
     </summary>
     
     
-      <category term="汇编语言" scheme="https://www.guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+      <category term="汇编语言" scheme="https://guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
     
     
-      <category term="Java" scheme="https://www.guixinchn.cn/tags/Java/"/>
+      <category term="Java" scheme="https://guixinchn.cn/tags/Java/"/>
     
   </entry>
   
