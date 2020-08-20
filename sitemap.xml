@@ -396,28 +396,7 @@
   </url>
   
   <url>
-    <loc>https://www.guixinchn.cn/tags/Nginx/</loc>
-    <lastmod>2020-08-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.guixinchn.cn/tags/SSL/</loc>
-    <lastmod>2020-08-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.guixinchn.cn/tags/Navicat-Premium/</loc>
-    <lastmod>2020-08-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.guixinchn.cn/tags/SQL/</loc>
     <lastmod>2020-08-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -438,6 +417,27 @@
   </url>
   
   <url>
+    <loc>https://www.guixinchn.cn/tags/Nginx/</loc>
+    <lastmod>2020-08-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.guixinchn.cn/tags/SSL/</loc>
+    <lastmod>2020-08-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.guixinchn.cn/tags/SQL/</loc>
+    <lastmod>2020-08-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.guixinchn.cn/tags/API/</loc>
     <lastmod>2020-08-20</lastmod>
     <changefreq>daily</changefreq>
@@ -445,14 +445,14 @@
   </url>
   
   <url>
-    <loc>https://www.guixinchn.cn/tags/Collection/</loc>
+    <loc>https://www.guixinchn.cn/tags/wordpress/</loc>
     <lastmod>2020-08-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.guixinchn.cn/tags/wordpress/</loc>
+    <loc>https://www.guixinchn.cn/tags/Collection/</loc>
     <lastmod>2020-08-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
