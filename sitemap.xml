@@ -389,13 +389,6 @@
   </url>
   
   <url>
-    <loc>https://www.guixinchn.cn/tags/PHP/</loc>
-    <lastmod>2020-08-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.guixinchn.cn/tags/MySQL/</loc>
     <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
@@ -404,6 +397,34 @@
   
   <url>
     <loc>https://www.guixinchn.cn/tags/MarkDown/</loc>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.guixinchn.cn/tags/PHP/</loc>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.guixinchn.cn/tags/Navicat-Premium/</loc>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.guixinchn.cn/tags/Nginx/</loc>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.guixinchn.cn/tags/SSL/</loc>
     <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -424,28 +445,7 @@
   </url>
   
   <url>
-    <loc>https://www.guixinchn.cn/tags/Navicat-Premium/</loc>
-    <lastmod>2020-08-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.guixinchn.cn/tags/SQL/</loc>
-    <lastmod>2020-08-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.guixinchn.cn/tags/Nginx/</loc>
-    <lastmod>2020-08-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.guixinchn.cn/tags/SSL/</loc>
     <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -550,14 +550,14 @@
   </url>
   
   <url>
-    <loc>https://www.guixinchn.cn/tags/%E6%95%B0%E6%8D%AE%E5%AE%89%E5%85%A8/</loc>
+    <loc>https://www.guixinchn.cn/tags/Tomcat/</loc>
     <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.guixinchn.cn/tags/Tomcat/</loc>
+    <loc>https://www.guixinchn.cn/tags/%E6%95%B0%E6%8D%AE%E5%AE%89%E5%85%A8/</loc>
     <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
