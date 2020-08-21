@@ -333,6 +333,13 @@
 
   
   <url>
+    <loc>https://www.guixinchn.cn/tags/Matery/</loc>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.guixinchn.cn/tags/Hexo/</loc>
     <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
@@ -355,13 +362,6 @@
   
   <url>
     <loc>https://www.guixinchn.cn/tags/Gitee/</loc>
-    <lastmod>2020-08-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.guixinchn.cn/tags/Matery/</loc>
     <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -396,14 +396,14 @@
   </url>
   
   <url>
-    <loc>https://www.guixinchn.cn/tags/MarkDown/</loc>
+    <loc>https://www.guixinchn.cn/tags/PHP/</loc>
     <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.guixinchn.cn/tags/PHP/</loc>
+    <loc>https://www.guixinchn.cn/tags/MarkDown/</loc>
     <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -431,28 +431,7 @@
   </url>
   
   <url>
-    <loc>https://www.guixinchn.cn/tags/Apache/</loc>
-    <lastmod>2020-08-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.guixinchn.cn/tags/PhpStorm/</loc>
-    <lastmod>2020-08-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.guixinchn.cn/tags/SQL/</loc>
-    <lastmod>2020-08-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.guixinchn.cn/tags/API/</loc>
     <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -467,6 +446,27 @@
   
   <url>
     <loc>https://www.guixinchn.cn/tags/Collection/</loc>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.guixinchn.cn/tags/Apache/</loc>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.guixinchn.cn/tags/PhpStorm/</loc>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.guixinchn.cn/tags/API/</loc>
     <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
