@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.guixinchn.cn/"/>
-  <updated>2020-08-21T10:14:49.345Z</updated>
+  <updated>2020-08-23T09:10:33.761Z</updated>
   <id>https://www.guixinchn.cn/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo-Matery主题性能优化</title>
+    <link href="https://www.guixinchn.cn/posts/38f3.html"/>
+    <id>https://www.guixinchn.cn/posts/38f3.html</id>
+    <published>2020-08-23T09:06:02.000Z</published>
+    <updated>2020-08-23T09:10:33.761Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;性能优化&quot;&gt;&lt;a href=&quot;#性能优化&quot; class=&quot;headerlink&quot; title=&quot;性能优化&quot;&gt;&lt;/a&gt;性能优化&lt;/h2&gt;&lt;h3 id=&quot;文章生成永久链接&quot;&gt;&lt;a href=&quot;#文章生成永久链接&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="关于博客" scheme="https://www.guixinchn.cn/categories/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Matery" scheme="https://www.guixinchn.cn/tags/Matery/"/>
+    
+      <category term="Hexo" scheme="https://www.guixinchn.cn/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo-Matery主题美化</title>
@@ -575,33 +604,6 @@
       <category term="Java" scheme="https://www.guixinchn.cn/tags/Java/"/>
     
       <category term="Class" scheme="https://www.guixinchn.cn/tags/Class/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>java_数组的定义与操作</title>
-    <link href="https://www.guixinchn.cn/posts/b06e.html"/>
-    <id>https://www.guixinchn.cn/posts/b06e.html</id>
-    <published>2020-08-02T13:32:55.000Z</published>
-    <updated>2020-08-10T16:06:05.266Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;数组定义和访问&quot;&gt;&lt;a href=&quot;#数组定义和访问&quot; class=&quot;headerlink&quot; title=&quot;数组定义和访问&quot;&gt;&lt;/a&gt;数组定义和访问&lt;/h1&gt;&lt;h2 id=&quot;数组概念&quot;&gt;&lt;a href=&quot;#数组概念&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="汇编语言" scheme="https://www.guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
-    
-    
-      <category term="Java" scheme="https://www.guixinchn.cn/tags/Java/"/>
     
   </entry>
   
