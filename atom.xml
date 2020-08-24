@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.guixinchn.cn/"/>
-  <updated>2020-08-23T09:10:33.761Z</updated>
+  <updated>2020-08-24T14:59:27.554Z</updated>
   <id>https://www.guixinchn.cn/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Linux教学资源服务器构建</title>
+    <link href="https://www.guixinchn.cn/posts/608a.html"/>
+    <id>https://www.guixinchn.cn/posts/608a.html</id>
+    <published>2020-08-24T14:53:55.000Z</published>
+    <updated>2020-08-24T14:59:27.554Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;1-需求分析&quot;&gt;&lt;a href=&quot;#1-需求分析&quot; class=&quot;headerlink&quot; title=&quot;1. 需求分析&quot;&gt;&lt;/a&gt;1. 需求分析&lt;/h1&gt;&lt;h2 id=&quot;1-1-课题简介&quot;&gt;&lt;a href=&quot;#1-1-课题简介&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="技术总结" scheme="https://www.guixinchn.cn/categories/%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/"/>
+    
+    
+      <category term="Linux" scheme="https://www.guixinchn.cn/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo-Matery主题性能优化</title>
     <link href="https://www.guixinchn.cn/posts/38f3.html"/>
     <id>https://www.guixinchn.cn/posts/38f3.html</id>
     <published>2020-08-23T09:06:02.000Z</published>
-    <updated>2020-08-23T09:10:33.761Z</updated>
+    <updated>2020-08-23T09:17:49.296Z</updated>
     
     <summary type="html">
     
@@ -575,35 +602,6 @@
     
     
       <category term="MarkDown" scheme="https://www.guixinchn.cn/tags/MarkDown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>java_Scanner类、Random类、ArrayList 类的使用</title>
-    <link href="https://www.guixinchn.cn/posts/c412.html"/>
-    <id>https://www.guixinchn.cn/posts/c412.html</id>
-    <published>2020-08-03T12:32:55.000Z</published>
-    <updated>2020-08-10T16:06:05.228Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Scanner类&quot;&gt;&lt;a href=&quot;#Scanner类&quot; class=&quot;headerlink&quot; title=&quot;Scanner类&quot;&gt;&lt;/a&gt;Scanner类&lt;/h1&gt;&lt;p&gt;一个可以解析基本类型和字符串的简单文本扫描器。 例如，以下代码使用户能够从
-        
-      
-    
-    </summary>
-    
-    
-      <category term="汇编语言" scheme="https://www.guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
-    
-    
-      <category term="Java" scheme="https://www.guixinchn.cn/tags/Java/"/>
-    
-      <category term="Class" scheme="https://www.guixinchn.cn/tags/Class/"/>
     
   </entry>
   
