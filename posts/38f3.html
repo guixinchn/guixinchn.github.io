@@ -37,14 +37,16 @@
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
-            <div class="brand-logo">
-                <a href="/" class="waves-effect waves-light">
-                    
-                    <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/logo.png" class="logo-img" alt="LOGO">
-                    
-                    <span class="logo-span">咕咕星Blog</span>
-                </a>
-            </div>
+		<div class="brand-logo">
+		    <a href="/" class="waves-effect waves-light">
+			<div>
+			    
+			    <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/logo.png" class="logo-img" alt="LOGO">
+			    
+			    <span class="logo-span">咕咕星Blog</span>
+			</div>
+		    </a>
+		</div>
             
 
 <a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
@@ -469,14 +471,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    4.9k
+                    5.1k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    20 分
+                    21 分
                 </div>
                 
 
@@ -516,13 +518,37 @@ lazyload:
   enable: true
   onlypost: false
   loadingImg: /medias/loading.gif</code></pre>
-<p>存在问题：</p>
+<p><strong>存在问题1：</strong></p>
 <p>查看大图，发现全部为 loading 加载图，原因是因为懒加载插件与 lightgallery 插件冲突，解决办法如下：</p>
 <p>修改主题文件下的 matery.js，在 108 行左右添加以下代码：</p>
 <pre><code>$(document).find('img[data-original]').each(function(){
         $(this).parent().attr("href", $(this).attr("data-original"));
 });</code></pre>
-<p>懒加载优化</p>
+<p><strong>存在问题2：</strong></p>
+<p>点击首页 logo 不是跳转到首页，而是查看 logo 图片，解决办法如下：<br>修改主题下 layout/_partial/header.ejs 文件，原代码为：</p>
+<pre><code>&lt;div class="brand-logo"&gt;
+    &lt;a href="&lt;%- url_for() %&gt;" class="waves-effect waves-light"&gt;
+        &lt;% if (theme.logo !== undefined &amp;&amp; theme.logo.length &gt; 0) { %&gt;
+        &lt;img src="&lt;%- theme.jsDelivr.url %&gt;&lt;%- url_for(theme.logo) %&gt;" class="logo-img" alt="LOGO"&gt;
+        &lt;% } %&gt;
+        &lt;span class="logo-span"&gt;&lt;%= config.title %&gt;&lt;/span&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+</code></pre>
+<p>修改为：</p>
+<pre><code>&lt;div class="brand-logo"&gt;
+    &lt;a href="&lt;%- url_for() %&gt;" class="waves-effect waves-light"&gt;
+        &lt;div&gt;
+            &lt;% if (theme.logo !== undefined &amp;&amp; theme.logo.length &gt; 0) { %&gt;
+            &lt;img src="&lt;%= theme.logo %&gt;" class="logo-img" alt="LOGO"&gt;
+            &lt;% } %&gt;
+            &lt;span class="logo-span"&gt;&lt;%- config.title %&gt;&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+
+</code></pre>
+<p><strong>懒加载优化</strong></p>
 <p>打开 Hexo根目录 &gt;node_modules &gt; hexo-lazyload-image &gt; lib &gt; simple-lazyload.js 文件</p>
 <p>第 9 行修改为：</p>
 <pre><code>&amp;&amp; rect.top &lt;= (window.innerHeight +240 || document.documentElement.clientHeight +240)</code></pre>
@@ -1991,7 +2017,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">55.1k</span>&nbsp;字
+                class="white-color">55.3k</span>&nbsp;字
             
             
             
