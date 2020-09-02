@@ -52,7 +52,7 @@
 		    <a href="/" class="waves-effect waves-light">
 			<div>
 			    
-			    <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/logo.png" class="logo-img" alt="LOGO">
+			    <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/logo.png" class="logo-img" alt="LOGO">
 			    
 			    <span class="logo-span">咕咕星Blog</span>
 			</div>
@@ -152,7 +152,7 @@
 
     <div class="mobile-head bg-color">
         
-        <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/logo.png" class="logo-img circle responsive-img">
+        <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/logo.png" class="logo-img circle responsive-img">
         
         <div class="logo-name">咕咕星Blog</div>
         <div class="logo-desc">
@@ -510,7 +510,7 @@
 <p><strong>方式三</strong><br>数据类型[] 数组名 = {元素1,元素2,元素3…};</p>
 <p>举例： 定义存储1，2，3，4，5整数的数组容器</p>
 <pre class=" language-java"><code class="language-java"><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre>
-<h2 id="数组的访问"><a href="#数组的访问" class="headerlink" title="数组的访问"></a>数组的访问</h2><p>直接输出数组名,显示的是数组的地址 [I@50cbc42f<br>索引： 每一个存储到数组的元素，都会自动的拥有一个编号，从0开始，这个自动编号称为数组索引(index)，可以通过数组的索引访问到数组中的元素。<br><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804191506.png"><br>格式：数组名[索引]</p>
+<h2 id="数组的访问"><a href="#数组的访问" class="headerlink" title="数组的访问"></a>数组的访问</h2><p>直接输出数组名,显示的是数组的地址 [I@50cbc42f<br>索引： 每一个存储到数组的元素，都会自动的拥有一个编号，从0开始，这个自动编号称为数组索引(index)，可以通过数组的索引访问到数组中的元素。<br><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804191506.png"><br>格式：数组名[索引]</p>
 <p>通过索引访问数组中的元素：<br>数组名[索引]，获取出数组中的元素<br>数组名[索引]=数值，为数组中的元素赋值</p>
 <p><strong>数组的长度属性</strong>： 每个数组都具有长度，而且是固定的，Java中赋予了数组的一个属性，可以获取到数组的<br>长度，语句为： 数组名.length ，属性length的执行结果是数组的长度，int类型结果。由次可以推断出，数<br>组的最大索引值为 数组名.length-1 </p>
 <pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -531,7 +531,7 @@
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre>
 <p>[I@50cbc42f是数组在内存中的地址。new出来的内容，都是在堆内存中存储的，而方法中的变量arr保存的是数组的地址。 输出arr[0]，就会输出arr保存的内存地址中数组中0索引上的元素</p>
-<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804191600.png"><br><strong>两个数组内存图</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804191600.png"><br><strong>两个数组内存图</strong></p>
 <pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
         <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">int</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
         <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">int</span><span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
@@ -555,7 +555,7 @@
         System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>arr2<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
         System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>arr2<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
-<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804191718.png"><br><strong>两个变量指向一个数组</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804191718.png"><br><strong>两个变量指向一个数组</strong></p>
 <pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">int</span><span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
     arr<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">100</span><span class="token punctuation">;</span>
@@ -580,19 +580,19 @@
     System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>arr2<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>arr2<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
-<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804191910.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804191910.png"></p>
 <h1 id="数组的常见操作"><a href="#数组的常见操作" class="headerlink" title="数组的常见操作"></a>数组的常见操作</h1><h2 id="数组越界异常"><a href="#数组越界异常" class="headerlink" title="数组越界异常"></a>数组越界异常</h2><pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
     System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>arr<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
 <p>创建数组，赋值3个元素，数组的索引就是0，1，2，没有3索引，因此不能访问数组中不存在的索引，程序运行后，将会抛出 ArrayIndexOutOfBoundsException 数组越界异常。</p>
-<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804192017.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804192017.png"></p>
 <h2 id="数组空指针异常"><a href="#数组空指针异常" class="headerlink" title="数组空指针异常"></a>数组空指针异常</h2><pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
     arr <span class="token operator">=</span> null<span class="token punctuation">;</span>
     System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>arr<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 ｝</code></pre>
-<p>arr = null 这行代码，意味着变量arr将不会在保存数组的内存地址，也就不允许再操作数组了，因此运行的时候会抛出 NullPointerException 空指针异常。<br><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804192057.png"></p>
+<p>arr = null 这行代码，意味着变量arr将不会在保存数组的内存地址，也就不允许再操作数组了，因此运行的时候会抛出 NullPointerException 空指针异常。<br><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804192057.png"></p>
 <h2 id="数组遍历"><a href="#数组遍历" class="headerlink" title="数组遍历"></a>数组遍历</h2><p>数组遍历： 就是将数组中的每个元素分别获取出来。</p>
 <pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">11</span><span class="token punctuation">,</span> <span class="token number">22</span><span class="token punctuation">,</span> <span class="token number">33</span><span class="token punctuation">,</span> <span class="token number">44</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
@@ -616,7 +616,7 @@
     <span class="token comment" spellcheck="true">// 4.输出最大值</span>
     System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>max<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
-<h2 id="数组反转"><a href="#数组反转" class="headerlink" title="数组反转"></a>数组反转</h2><p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804192141.png"></p>
+<h2 id="数组反转"><a href="#数组反转" class="headerlink" title="数组反转"></a>数组反转</h2><p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804192141.png"></p>
 <pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">11</span><span class="token punctuation">,</span> <span class="token number">22</span><span class="token punctuation">,</span> <span class="token number">33</span><span class="token punctuation">,</span> <span class="token number">44</span><span class="token punctuation">,</span> <span class="token number">55</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
     <span class="token comment" spellcheck="true">// 定义变量记录小索引: start = 0</span>
@@ -644,7 +644,7 @@
         System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre>
-<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804192215.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804192215.png"></p>
 <h2 id="数组作为方法返回值"><a href="#数组作为方法返回值" class="headerlink" title="数组作为方法返回值"></a>数组作为方法返回值</h2><p>数组作为方法的返回值，返回的是数组的内存地址</p>
 <pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token comment" spellcheck="true">//调用方法，接收数组的返回值</span>
@@ -663,7 +663,7 @@
     <span class="token comment" spellcheck="true">//返回数组的地址，返回到调用者</span>
     <span class="token keyword">return</span> arr<span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
-<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804192242.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804192242.png"></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -876,10 +876,10 @@
                         <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
                     </ul>
                     <div id="alipay">
-                        <img src="/medias/loading.gif" data-original="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                     <div id="wechat">
-                        <img src="/medias/loading.gif" data-original="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                        <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/wechat.png" class="reward-img" alt="微信打赏二维码">
                     </div>
                 </div>
             </div>
@@ -917,7 +917,7 @@
 
     #vcomments textarea {
         box-sizing: border-box;
-        background: url("/medias/comment_bg.png") 100% 100% no-repeat;
+        background: url("https://cdn.jsdelivr.net/gh/guixinchn/image/blog/comment_bg.webp") 100% 100% no-repeat;
     }
 
     #vcomments p {
@@ -1254,7 +1254,7 @@
                 <a href="/posts/c412.html">
                     <div class="card-image">
                         
-                        <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/java.jpg" class="responsive-img" alt="java_Scanner类、Random类、ArrayList 类的使用">
+                        <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/java.jpg" class="responsive-img" alt="java_Scanner类、Random类、ArrayList 类的使用">
                         
                         <span class="card-title">java_Scanner类、Random类、ArrayList 类的使用</span>
                     </div>
@@ -1308,7 +1308,7 @@ int i = in.nextInt();
                 <a href="/posts/6d32.html">
                     <div class="card-image">
                         
-                        <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/java.jpg" class="responsive-img" alt="java_方法的定义、调用、重载">
+                        <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/java.jpg" class="responsive-img" alt="java_方法的定义、调用、重载">
                         
                         <span class="card-title">java_方法的定义、调用、重载</span>
                     </div>

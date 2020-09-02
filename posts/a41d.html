@@ -52,7 +52,7 @@
 		    <a href="/" class="waves-effect waves-light">
 			<div>
 			    
-			    <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/logo.png" class="logo-img" alt="LOGO">
+			    <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/logo.png" class="logo-img" alt="LOGO">
 			    
 			    <span class="logo-span">咕咕星Blog</span>
 			</div>
@@ -152,7 +152,7 @@
 
     <div class="mobile-head bg-color">
         
-        <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/logo.png" class="logo-img circle responsive-img">
+        <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/logo.png" class="logo-img circle responsive-img">
         
         <div class="logo-name">咕咕星Blog</div>
         <div class="logo-desc">
@@ -517,10 +517,10 @@
 <p>阿里云证书      官网：<a href="https://common-buy.aliyun.com/?commodityCode=cas" target="_blank" rel="noopener">https://common-buy.aliyun.com/?commodityCode=cas</a></p>
 <p>Freessl  官网：<a href="https://freessl.cn/" target="_blank" rel="noopener">https://freessl.cn/</a></p>
 <h2 id="申请证书"><a href="#申请证书" class="headerlink" title="申请证书"></a>申请证书</h2><p>我是在阿里云上免费申请的</p>
-<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804210306.png"><br><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804210331.png"><br>申请证书大概10分钟就可以审核通过，然后就是下载证书，选择nginx</p>
-<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804210350.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804210306.png"><br><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804210331.png"><br>申请证书大概10分钟就可以审核通过，然后就是下载证书，选择nginx</p>
+<p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804210350.png"></p>
 <h2 id="下载证书"><a href="#下载证书" class="headerlink" title="下载证书"></a>下载证书</h2><p>然后把下载下来的两个文件放进nginx的根目录路</p>
-<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804210505.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804210505.png"></p>
 <h2 id="配置证书"><a href="#配置证书" class="headerlink" title="配置证书"></a>配置证书</h2><p>然后进入nginx.conf中配置</p>
 <pre class=" language-bash"><code class="language-bash">server <span class="token punctuation">{</span>
         listen       443 ssl<span class="token punctuation">;</span>
@@ -558,9 +558,9 @@
     <span class="token punctuation">}</span></code></pre>
 <h2 id="重启nginx"><a href="#重启nginx" class="headerlink" title="重启nginx"></a>重启nginx</h2><pre class=" language-bash"><code class="language-bash">nginx -s reload</code></pre>
 <p>记得打开服务器的443端口号</p>
-<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804210525.png"><br>如果再次进去你的网站是自动下载一个php文件，是因为chrome的缓存导致，这个问题折腾了我好几个小时，然后如果你原网站虽然有证书，但是显示不安全的话就是应为你网站当中存在一些图片来自http中，修改一下图片的来源即可。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804210525.png"><br>如果再次进去你的网站是自动下载一个php文件，是因为chrome的缓存导致，这个问题折腾了我好几个小时，然后如果你原网站虽然有证书，但是显示不安全的话就是应为你网站当中存在一些图片来自http中，修改一下图片的来源即可。</p>
 <p>没有证书和有证书相比较的效果：</p>
-<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804210550.png"><br><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804210609.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804210550.png"><br><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804210609.png"></p>
 <p>最后一点，把网站强制跳转到https的链接中，在nginx.conf配置文件中加入以下一段代码：</p>
 <pre class=" language-bash"><code class="language-bash">rewrite ^<span class="token punctuation">(</span>.*<span class="token punctuation">)</span>$ https://<span class="token variable">$host</span><span class="token variable">$1</span> permanent<span class="token punctuation">;</span></code></pre>
 <script>
@@ -783,10 +783,10 @@
                         <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
                     </ul>
                     <div id="alipay">
-                        <img src="/medias/loading.gif" data-original="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                     <div id="wechat">
-                        <img src="/medias/loading.gif" data-original="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                        <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/wechat.png" class="reward-img" alt="微信打赏二维码">
                     </div>
                 </div>
             </div>
@@ -824,7 +824,7 @@
 
     #vcomments textarea {
         box-sizing: border-box;
-        background: url("/medias/comment_bg.png") 100% 100% no-repeat;
+        background: url("https://cdn.jsdelivr.net/gh/guixinchn/image/blog/comment_bg.webp") 100% 100% no-repeat;
     }
 
     #vcomments p {
@@ -1161,7 +1161,7 @@
                 <a href="/posts/7a9c.html">
                     <div class="card-image">
                         
-                        <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/java.jpg" class="responsive-img" alt="Java查表法实现十进制转化成其它进制">
+                        <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/java.jpg" class="responsive-img" alt="Java查表法实现十进制转化成其它进制">
                         
                         <span class="card-title">Java查表法实现十进制转化成其它进制</span>
                     </div>
@@ -1210,7 +1210,7 @@
                 <a href="/posts/a485.html">
                     <div class="card-image">
                         
-                        <img src="/medias/loading.gif" data-original="https://ythan.top/wp-content/uploads/2020/03/c67bc342dd9c426.jpg" class="responsive-img" alt="WordPress固定链接后404的解决方法">
+                        <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://ythan.top/wp-content/uploads/2020/03/c67bc342dd9c426.jpg" class="responsive-img" alt="WordPress固定链接后404的解决方法">
                         
                         <span class="card-title">WordPress固定链接后404的解决方法</span>
                     </div>

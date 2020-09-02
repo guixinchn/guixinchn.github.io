@@ -52,7 +52,7 @@
 		    <a href="/" class="waves-effect waves-light">
 			<div>
 			    
-			    <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/logo.png" class="logo-img" alt="LOGO">
+			    <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/logo.png" class="logo-img" alt="LOGO">
 			    
 			    <span class="logo-span">咕咕星Blog</span>
 			</div>
@@ -152,7 +152,7 @@
 
     <div class="mobile-head bg-color">
         
-        <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/logo.png" class="logo-img circle responsive-img">
+        <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/logo.png" class="logo-img circle responsive-img">
         
         <div class="logo-name">咕咕星Blog</div>
         <div class="logo-desc">
@@ -510,7 +510,7 @@
     <span class="token comment" spellcheck="true">// ...</span>
 <span class="token punctuation">}</span></code></pre>
 <p>根据JDK源代码及Object类的API文档，Object类当中包含的方法有11个。</p>
-<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804184402.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804184402.png"></p>
 <h2 id="toString方法"><a href="#toString方法" class="headerlink" title="toString方法"></a>toString方法</h2><p>toString方法返回该对象的字符串表示，其实该字符串内容就是对象的类型+@+内存地址值</p>
 <p>由于toString方法返回的结果是内存地址，而在开发中，经常需要按照对象的属性得到相应的字符串表现形式，因此也需要重写它。</p>
 <pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Person</span> <span class="token punctuation">{</span>
@@ -523,7 +523,7 @@
 
     <span class="token comment" spellcheck="true">// 省略构造器与Getter Setter</span>
 <span class="token punctuation">}</span></code></pre>
-<p>在IntelliJ IDEA中，可以点击 Code 菜单中的 Generate… ，也可以使用快捷键 alt+insert ，点击 toString() 选项。选择需要包含的成员变量并确定。如下图所示：<br><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804184516.png"></p>
+<p>在IntelliJ IDEA中，可以点击 Code 菜单中的 Generate… ，也可以使用快捷键 alt+insert ，点击 toString() 选项。选择需要包含的成员变量并确定。如下图所示：<br><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804184516.png"></p>
 <h2 id="equals方法"><a href="#equals方法" class="headerlink" title="equals方法"></a>equals方法</h2><p>调用成员方法equals并指定参数为另一个对象，则可以判断这两个对象是否是相同的。这里的“相同”有默认和自定义两种方式。</p>
 <h4 id="默认地址比较"><a href="#默认地址比较" class="headerlink" title="默认地址比较"></a>默认地址比较</h4><p>如果没有覆盖重写equals方法，那么Object类中默认进行 == 运算符的对象地址比较，只要不是同一个对象，结果必然为false。</p>
 <h4 id="对象内容比较"><a href="#对象内容比较" class="headerlink" title="对象内容比较"></a>对象内容比较</h4><p>如果希望进行对象的内容比较，即所有或指定的部分成员变量相同就判定两个对象相同，则可以覆盖重写equals方法。</p>
@@ -545,7 +545,7 @@
         <span class="token keyword">return</span> age <span class="token operator">==</span> person<span class="token punctuation">.</span>age <span class="token operator">&amp;&amp;</span> Objects<span class="token punctuation">.</span><span class="token function">equals</span><span class="token punctuation">(</span>name<span class="token punctuation">,</span> person<span class="token punctuation">.</span>name<span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre>
-<p>这段代码充分考虑了对象为空、类型一致等问题，但方法内容并不唯一。大多数IDE都可以自动生成equals方法的代码内容。在IntelliJ IDEA中，可以使用 Code 菜单中的 Generate… 选项，也可以使用快捷键alt+insert ，并选择equals() and hashCode() 进行自动代码生成。如下图所示：<br><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804184601.png"><br><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804184658.png"></p>
+<p>这段代码充分考虑了对象为空、类型一致等问题，但方法内容并不唯一。大多数IDE都可以自动生成equals方法的代码内容。在IntelliJ IDEA中，可以使用 Code 菜单中的 Generate… 选项，也可以使用快捷键alt+insert ，并选择equals() and hashCode() 进行自动代码生成。如下图所示：<br><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804184601.png"><br><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804184658.png"></p>
 <h1 id="Date类"><a href="#Date类" class="headerlink" title="Date类"></a>Date类</h1><p>java.util.Date 类 表示特定的瞬间，精确到毫秒。</p>
 <p>public Date() ：分配Date对象并初始化此对象，以表示分配它的时间（精确到毫秒）。</p>
 <p>public Date(long date) ：分配Date对象并初始化此对象，以表示自从标准基准时间（称为“历元（epoch）”，即1970年1月1日00:00:00 GMT）以来的指定毫秒数。</p>
@@ -563,7 +563,7 @@
 <p>常用方法:<br>public long getTime() 把日期对象转换成对应的时间毫秒值。</p>
 <h1 id="DateFormat类"><a href="#DateFormat类" class="headerlink" title="DateFormat类"></a>DateFormat类</h1><p>java.text.DateFormat 是日期/时间格式化子类的抽象类，我们通过这个类可以帮我们完成日期和文本之间的转换,也就是可以在Date对象与String对象之间进行来回转换。</p>
 <p>由于DateFormat为抽象类，不能直接使用，所以需要常用的子类 java.text.SimpleDateFormat 。这个类需要一个模式（格式）来指定格式化或解析的标准。构造方法为：</p>
-<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804184745.png"><br>创建SimpleDateFormat对象的代码如：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804184745.png"><br>创建SimpleDateFormat对象的代码如：</p>
 <pre class=" language-java"><code class="language-java"><span class="token keyword">import</span> java<span class="token punctuation">.</span>text<span class="token punctuation">.</span>DateFormat<span class="token punctuation">;</span>
 <span class="token keyword">import</span> java<span class="token punctuation">.</span>text<span class="token punctuation">.</span>SimpleDateFormat<span class="token punctuation">;</span>
     <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Demo2</span><span class="token punctuation">{</span>
@@ -623,7 +623,7 @@
 <span class="token punctuation">}</span></code></pre>
 <h1 id="Calendar类"><a href="#Calendar类" class="headerlink" title="Calendar类"></a>Calendar类</h1><p>java.util.Calendar 是日历类，在Date后出现，替换掉了许多Date的方法。该类将所有可能用到的时间信息封装为静态成员变量，方便获取。</p>
 <p>常用方法:<br>public int get(int field) ：返回给定日历字段的值。<br>public void set(int field, int value) ：将给定的日历字段设置为给定值。<br>public abstract void add(int field, int amount) ：根据日历的规则，为给定的日历字段添加或减去指定的时间量。<br>public Date getTime() ：返回一个表示此Calendar时间值（从历元到现在的毫秒偏移量）的Date对象</p>
-<p>Calendar类中提供很多成员常量<br><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804184833.png"><br><strong>get/set方法</strong></p>
+<p>Calendar类中提供很多成员常量<br><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804184833.png"><br><strong>get/set方法</strong></p>
 <pre class=" language-java"><code class="language-java"><span class="token keyword">import</span> java<span class="token punctuation">.</span>util<span class="token punctuation">.</span>Calendar<span class="token punctuation">;</span>
 <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Demo</span><span class="token punctuation">{</span>
     <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -685,7 +685,7 @@
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre>
 <h3 id="arraycopy方法"><a href="#arraycopy方法" class="headerlink" title="arraycopy方法"></a>arraycopy方法</h3><p>public static void arraycopy(Object src, int srcPos, Object dest, int destPos, int length) ：将数组中指定的数据拷贝到另一个数组中。</p>
-<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804184933.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804184933.png"></p>
 <pre class=" language-java"><code class="language-java"><span class="token keyword">import</span> java<span class="token punctuation">.</span>util<span class="token punctuation">.</span>Arrays<span class="token punctuation">;</span>
 <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Demo11SystemArrayCopy</span> <span class="token punctuation">{</span>
     <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -699,7 +699,7 @@
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span></code></pre>
 <h1 id="包装类"><a href="#包装类" class="headerlink" title="包装类"></a>包装类</h1><p>Java提供了两个类型系统，基本类型与引用类型，使用基本类型在于效率，然而很多情况，会创建对象使用，因为对象可以做更多的功能，如果想要基本类型像对象一样操作，就可以使用基本类型对应的包装类</p>
-<p><img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804185019.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/java/20200804185019.png"></p>
 <h2 id="装箱与拆箱"><a href="#装箱与拆箱" class="headerlink" title="装箱与拆箱"></a>装箱与拆箱</h2><p>基本类型与对应的包装类对象之间，来回转换的过程称为”装箱“与”拆箱“：</p>
 <p>装箱：从基本类型转换为对应的包装类对象。<br>拆箱：从包装类对象转换为对应的基本类型。</p>
 <p>基本数值—-&gt;包装对象</p>
@@ -946,10 +946,10 @@ i <span class="token operator">=</span> i <span class="token operator">+</span> 
                         <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
                     </ul>
                     <div id="alipay">
-                        <img src="/medias/loading.gif" data-original="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                     <div id="wechat">
-                        <img src="/medias/loading.gif" data-original="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                        <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/wechat.png" class="reward-img" alt="微信打赏二维码">
                     </div>
                 </div>
             </div>
@@ -987,7 +987,7 @@ i <span class="token operator">=</span> i <span class="token operator">+</span> 
 
     #vcomments textarea {
         box-sizing: border-box;
-        background: url("/medias/comment_bg.png") 100% 100% no-repeat;
+        background: url("https://cdn.jsdelivr.net/gh/guixinchn/image/blog/comment_bg.webp") 100% 100% no-repeat;
     }
 
     #vcomments p {
@@ -1324,7 +1324,7 @@ i <span class="token operator">=</span> i <span class="token operator">+</span> 
                 <a href="/posts/dcff.html">
                     <div class="card-image">
                         
-                        <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/java.jpg" class="responsive-img" alt="java_String类、StringBuilder类、Arrays类、Math类的使用">
+                        <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/java.jpg" class="responsive-img" alt="java_String类、StringBuilder类、Arrays类、Math类的使用">
                         
                         <span class="card-title">java_String类、StringBuilder类、Arrays类、Math类的使用</span>
                     </div>
@@ -1383,7 +1383,7 @@ public stat
                 <a href="/posts/4ef.html">
                     <div class="card-image">
                         
-                        <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/java.jpg" class="responsive-img" alt="java_内部类、匿名内部类的使用">
+                        <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/java.jpg" class="responsive-img" alt="java_内部类、匿名内部类的使用">
                         
                         <span class="card-title">java_内部类、匿名内部类的使用</span>
                     </div>
