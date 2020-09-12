@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="linxu系统安装WordPress, HTML,CSS,JavaScript,JQuery,java,linux等">
+    <meta name="keywords" content="Python_字符串, HTML,CSS,JavaScript,JQuery,java,linux等">
     <meta name="description" content="本网站是个人兴趣爱好，总结分享经验，记录生活点滴的平台，希望在以后的学习旅途中，走出自己的风景。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -27,7 +27,7 @@
 </script>
 
 
-    <title>linxu系统安装WordPress | 咕咕星Blog</title>
+    <title>Python_字符串 | 咕咕星Blog</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -322,12 +322,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://ythan.top/wp-content/uploads/2020/03/c67bc342dd9c426.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/guixinchn/image/blog/Python.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">linxu系统安装WordPress</h1>
+                    <h1 class="description center-align post-title">Python_字符串</h1>
                 </div>
             </div>
         </div>
@@ -444,12 +444,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Linux/">
-                                <span class="chip bg-color">Linux</span>
-                            </a>
-                        
-                            <a href="/tags/wordpress/">
-                                <span class="chip bg-color">wordpress</span>
+                            <a href="/tags/Python/">
+                                <span class="chip bg-color">Python</span>
                             </a>
                         
                     </div>
@@ -460,8 +456,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/" class="post-category">
-                                关于博客
+                            <a href="/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/" class="post-category">
+                                汇编语言
                             </a>
                         
                     </div>
@@ -473,7 +469,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-03-18
+                    2020-09-13
                 </div>
                 
 
@@ -482,14 +478,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    192
+                    1.5k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    6 分
                 </div>
                 
 
@@ -504,21 +500,155 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="安装前准备"><a href="#安装前准备" class="headerlink" title="安装前准备"></a>安装前准备</h2><p>确保在安装wordpress之前，安装了web服务器比如：nginx，php，数据库比如：mysql</p>
-<p>没有安装的翻我之前的博文有安装方法</p>
-<h2 id="下载安装包"><a href="#下载安装包" class="headerlink" title="下载安装包"></a>下载安装包</h2><p>进入官网下载压缩包</p>
-<p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200805114943.png"></p>
-<p><code>wget https://wordpress.org/latest.tar.gz</code></p>
-<p>解压</p>
-<p><code>tar -zxvf wordpress-5.3.2.tar.gz </code></p>
-<p>移动到指定目录下</p>
-<p><code>mv wordpress/* /www/wordpress/</code></p>
-<h2 id="给权限"><a href="#给权限" class="headerlink" title="给权限"></a>给权限</h2><p><code>chown –R www.www /www</code></p>
-<p>cd /www/</p>
-<p>查看权限 ll</p>
-<p>浏览器输入ip即可到达WordPress安装界面</p>
-<p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200805115646.png"></p>
-<p> 之后填写基本信息，注册账户，就可以登录wordpress后台了</p>
+                <h2 id="定义字符串"><a href="#定义字符串" class="headerlink" title="定义字符串"></a>定义字符串</h2><p>⼀对引号字符串或三引号字符串，如果需要用到引号则需要在前面增加”/“转义字符，三引号形式的字符串⽀持换⾏。</p>
+<pre class=" language-python"><code class="language-python">a <span class="token operator">=</span> <span class="token string">'i'</span>
+b <span class="token operator">=</span> <span class="token string">"also"</span>
+c <span class="token operator">=</span> <span class="token triple-quoted-string string">'''like'''</span>
+d <span class="token operator">=</span> <span class="token triple-quoted-string string">"""python"""</span>
+e <span class="token operator">=</span> <span class="token string">'i\'am vincent'</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>c<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>d<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span>
+</code></pre>
+<p>控制台显示结果为&lt;class ‘str’&gt;，即数据类型为str(字符串)。</p>
+<h2 id="字符串输入，输出"><a href="#字符串输入，输出" class="headerlink" title="字符串输入，输出"></a>字符串输入，输出</h2><p>在Python中，使⽤ input() 接收⽤户输⼊。</p>
+<pre class=" language-Python"><code class="language-Python">name = input('请输⼊你的名字：')
+print('你的名字是%s' % name)
+print(type(name))
+password = input('请输⼊你的密码：')
+print(f'你的密码是{password}')
+print(type(password))</code></pre>
+<h2 id="切片"><a href="#切片" class="headerlink" title="切片"></a>切片</h2><p>切⽚是指对操作的对象截取其中⼀部分的操作。字符串、列表、元组都⽀持切⽚操作。</p>
+<p><strong>语法</strong>：<code>序列[开始位置下标:结束位置下标:步⻓]</code></p>
+<blockquote>
+<ol>
+<li>不包含结束位置下标对应的数据， 正负整数均可</li>
+<li>步⻓是选取间隔，正负整数均可，默认步⻓为1。</li>
+</ol>
+</blockquote>
+<pre class=" language-python"><code class="language-python">name <span class="token operator">=</span> <span class="token string">"abcdef"</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>name<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">:</span><span class="token number">4</span><span class="token punctuation">:</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>  <span class="token comment" spellcheck="true"># cd</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>name<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">:</span><span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">)</span>  <span class="token comment" spellcheck="true"># cd</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>name<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">)</span>  <span class="token comment" spellcheck="true"># abcd</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>name<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">)</span>  <span class="token comment" spellcheck="true"># bcdef</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>name<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">)</span>  <span class="token comment" spellcheck="true"># abcdef</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>name<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span>  <span class="token comment" spellcheck="true"># ace</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>name<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>  <span class="token comment" spellcheck="true"># abcde, 负1表示倒数第⼀个数据</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>name<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">3</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>  <span class="token comment" spellcheck="true"># de</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>name<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>  <span class="token comment" spellcheck="true"># fedcba</span></code></pre>
+<h2 id="常⽤操作⽅法"><a href="#常⽤操作⽅法" class="headerlink" title="常⽤操作⽅法"></a>常⽤操作⽅法</h2><h3 id="查找"><a href="#查找" class="headerlink" title="查找"></a>查找</h3><p>查找⽅法即是查找⼦串在字符串中的位置或出现的次数</p>
+<ul>
+<li>find()：检测某个⼦串是否包含在这个字符串中，如果在返回这个⼦串开始的位置下标，否则则返 回-1。</li>
+</ul>
+<p><strong>语法：</strong><code>字符串序列.find(⼦串, 开始位置下标, 结束位置下标)</code></p>
+<blockquote>
+<p>开始和结束位置下标可以省略，表示在整个字符串序列中查找。</p>
+</blockquote>
+<pre class=" language-python"><code class="language-python">mystr <span class="token operator">=</span> <span class="token string">'i like python and java and c++ and php'</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>mystr<span class="token punctuation">.</span>find<span class="token punctuation">(</span><span class="token string">'and'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>    <span class="token comment" spellcheck="true"># 14</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>mystr<span class="token punctuation">.</span>find<span class="token punctuation">(</span><span class="token string">'and'</span><span class="token punctuation">,</span> <span class="token number">15</span><span class="token punctuation">,</span> <span class="token number">30</span><span class="token punctuation">)</span><span class="token punctuation">)</span>    <span class="token comment" spellcheck="true"># 23</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>mystr<span class="token punctuation">.</span>find<span class="token punctuation">(</span><span class="token string">'amd'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>    <span class="token comment" spellcheck="true"># -1</span></code></pre>
+<ul>
+<li>index()：检测某个⼦串是否包含在这个字符串中，如果在返回这个⼦串开始的位置下标，否则则 报异常。</li>
+</ul>
+<p><strong>语法：</strong><code>字符串序列.index(⼦串, 开始位置下标, 结束位置下标)</code></p>
+<blockquote>
+<p>开始和结束位置下标可以省略，表示在整个字符串序列中查找</p>
+</blockquote>
+<pre class=" language-python"><code class="language-python">mystr <span class="token operator">=</span> <span class="token string">'i like python and java and c++ and php'</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>mystr<span class="token punctuation">.</span>index<span class="token punctuation">(</span><span class="token string">'and'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>    <span class="token comment" spellcheck="true"># 14</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>mystr<span class="token punctuation">.</span>index<span class="token punctuation">(</span><span class="token string">'and'</span><span class="token punctuation">,</span> <span class="token number">15</span><span class="token punctuation">,</span> <span class="token number">30</span><span class="token punctuation">)</span><span class="token punctuation">)</span>    <span class="token comment" spellcheck="true"># 23</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>mystr<span class="token punctuation">.</span>index<span class="token punctuation">(</span><span class="token string">'amd'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>    <span class="token comment" spellcheck="true"># -1</span></code></pre>
+<ul>
+<li>rfind()： 和find()功能相同，但查找⽅向为右侧开始。</li>
+<li>rindex()：和index()功能相同，但查找⽅向为右侧开始。</li>
+<li>count()：返回某个⼦串在字符串中出现的次数</li>
+</ul>
+<p><strong>语法：</strong><code>字符串序列.count(⼦串, 开始位置下标, 结束位置下标)</code></p>
+<blockquote>
+<p>开始和结束位置下标可以省略，表示在整个字符串序列中查找。</p>
+</blockquote>
+<pre class=" language-python"><code class="language-python">mystr <span class="token operator">=</span> <span class="token string">'i like python and java and c++ and php'</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>mystr<span class="token punctuation">.</span>count<span class="token punctuation">(</span><span class="token string">'and'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>    <span class="token comment" spellcheck="true"># 3</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>mystr<span class="token punctuation">.</span>count<span class="token punctuation">(</span><span class="token string">'and'</span><span class="token punctuation">,</span> <span class="token number">15</span><span class="token punctuation">,</span> <span class="token number">30</span><span class="token punctuation">)</span><span class="token punctuation">)</span>    <span class="token comment" spellcheck="true"># 1</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>mystr<span class="token punctuation">.</span>count<span class="token punctuation">(</span><span class="token string">'amd'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>    <span class="token comment" spellcheck="true"># 0</span></code></pre>
+<h3 id="修改"><a href="#修改" class="headerlink" title="修改"></a>修改</h3><p>修改字符串指的就是通过函数的形式修改字符串中的数据</p>
+<ul>
+<li>replace()：替换</li>
+</ul>
+<p><strong>语法：</strong><code>字符串序列.replace(旧⼦串, 新⼦串, 替换次数)</code></p>
+<pre class=" language-python"><code class="language-python">mystr <span class="token operator">=</span> <span class="token string">'i like python and java and c++ and php'</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>mystr<span class="token punctuation">.</span>replace<span class="token punctuation">(</span><span class="token string">'and'</span><span class="token punctuation">,</span> <span class="token string">'和'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>mystr<span class="token punctuation">.</span>replace<span class="token punctuation">(</span><span class="token string">'and'</span><span class="token punctuation">,</span> <span class="token string">'和'</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>mystr<span class="token punctuation">)</span>
+
+输出结果为：
+i like python 和 java 和 c<span class="token operator">+</span><span class="token operator">+</span> 和 php
+i like python 和 java 和 c<span class="token operator">+</span><span class="token operator">+</span> 和 php
+i like python <span class="token operator">and</span> java <span class="token operator">and</span> c<span class="token operator">+</span><span class="token operator">+</span> <span class="token operator">and</span> php</code></pre>
+<blockquote>
+<p>数据按照是否能直接修改分为可变类型和不可变类型两种。字符串类型的数据修改的时候 不能改变原有字符串，属于不能直接修改数据的类型即是不可变类型</p>
+</blockquote>
+<ul>
+<li>split()：按照指定字符分割字符串。</li>
+</ul>
+<p><strong>语法：</strong><code>字符串序列.split(分割字符, num)</code></p>
+<pre class=" language-python"><code class="language-python">mystr <span class="token operator">=</span> <span class="token string">'i like python and java and c++ and php'</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>mystr<span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token string">'and'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>mystr<span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token string">'and'</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>mystr<span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token string">' '</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>mystr<span class="token punctuation">)</span>
+
+输出结果为：
+<span class="token punctuation">[</span><span class="token string">'i like python '</span><span class="token punctuation">,</span> <span class="token string">' java '</span><span class="token punctuation">,</span> <span class="token string">' c++ '</span><span class="token punctuation">,</span> <span class="token string">' php'</span><span class="token punctuation">]</span>
+<span class="token punctuation">[</span><span class="token string">'i like python '</span><span class="token punctuation">,</span> <span class="token string">' java '</span><span class="token punctuation">,</span> <span class="token string">' c++ and php'</span><span class="token punctuation">]</span>
+<span class="token punctuation">[</span><span class="token string">'i'</span><span class="token punctuation">,</span> <span class="token string">'like'</span><span class="token punctuation">,</span> <span class="token string">'python'</span><span class="token punctuation">,</span> <span class="token string">'and'</span><span class="token punctuation">,</span> <span class="token string">'java'</span><span class="token punctuation">,</span> <span class="token string">'and'</span><span class="token punctuation">,</span> <span class="token string">'c++'</span><span class="token punctuation">,</span> <span class="token string">'and'</span><span class="token punctuation">,</span> <span class="token string">'php'</span><span class="token punctuation">]</span>
+i like python <span class="token operator">and</span> java <span class="token operator">and</span> c<span class="token operator">+</span><span class="token operator">+</span> <span class="token operator">and</span> php</code></pre>
+<ul>
+<li>join()：⽤⼀个字符或⼦串合并字符串，即是将多个字符串合并为⼀个新的字符串。</li>
+</ul>
+<p><strong>语法：</strong><code>字符或⼦串.join(多字符串组成的序列)</code></p>
+<pre class=" language-python"><code class="language-python">mylist <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'python'</span><span class="token punctuation">,</span> <span class="token string">'java'</span><span class="token punctuation">,</span> <span class="token string">'c++'</span><span class="token punctuation">,</span> <span class="token string">'php'</span><span class="token punctuation">]</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">' '</span><span class="token punctuation">.</span>join<span class="token punctuation">(</span>mylist<span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'...'</span><span class="token punctuation">.</span>join<span class="token punctuation">(</span>mylist<span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>mylist<span class="token punctuation">)</span>
+
+输出结果为：
+python java c<span class="token operator">+</span><span class="token operator">+</span> php
+python<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>java<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>c<span class="token operator">+</span><span class="token operator">+</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>php
+<span class="token punctuation">[</span><span class="token string">'python'</span><span class="token punctuation">,</span> <span class="token string">'java'</span><span class="token punctuation">,</span> <span class="token string">'c++'</span><span class="token punctuation">,</span> <span class="token string">'php'</span><span class="token punctuation">]</span></code></pre>
+<ul>
+<li>capitalize()：将字符串第⼀个字符转换成⼤写。</li>
+<li>title()：将字符串每个单词⾸字⺟转换成⼤写。</li>
+<li>lower()：将字符串中⼤写转⼩写。</li>
+<li>upper()：将字符串中⼩写转⼤写。</li>
+<li>lstrip()：删除字符串左侧空⽩字符。</li>
+<li>rstrip()：删除字符串右侧空⽩字符。</li>
+<li>ljust()：返回⼀个原字符串左对⻬,并使⽤指定字符(默认空格)填充⾄对应⻓度 的新字符串。</li>
+</ul>
+<p><strong>语法：</strong><code>字符串序列.ljust(⻓度, 填充字符)</code></p>
+<ul>
+<li>rjust()：返回⼀个原字符串右对⻬,并使⽤指定字符(默认空格)填充⾄对应⻓度 的新字符串，语法和 ljust()相同。 </li>
+<li>center()：返回⼀个原字符串居中对⻬,并使⽤指定字符(默认空格)填充⾄对应⻓度 的新字符串，语 法和ljust()相同。</li>
+</ul>
+<h3 id="判断"><a href="#判断" class="headerlink" title="判断"></a>判断</h3><p>判断即是判断真假，返回的结果是布尔型数据类型：True 或 False</p>
+<ul>
+<li>startswith()：检查字符串是否是以指定⼦串开头，是则返回 True，否则返回 False。如果设置开 始和结束位置下标，则在指定范围内检查。</li>
+</ul>
+<p><strong>语法：</strong><code>字符串序列.startswith(⼦串, 开始位置下标, 结束位置下标)</code></p>
+<pre class=" language-python"><code class="language-python">mystr <span class="token operator">=</span> <span class="token string">'i like python and java and c++ and php'</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>mystr<span class="token punctuation">.</span>startswith<span class="token punctuation">(</span><span class="token string">'i'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>    <span class="token comment" spellcheck="true"># True</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>mystr<span class="token punctuation">.</span>startswith<span class="token punctuation">(</span><span class="token string">'i like'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>    <span class="token comment" spellcheck="true"># True</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>mystr<span class="token punctuation">.</span>startswith<span class="token punctuation">(</span><span class="token string">'he'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>    <span class="token comment" spellcheck="true"># False</span></code></pre>
+<ul>
+<li>endswith()：：检查字符串是否是以指定⼦串结尾，是则返回 True，否则返回 False。如果设置开 始和结束位置下标，则在指定范围内检查。</li>
+<li>isalpha()：如果字符串⾄少有⼀个字符并且所有字符都是字⺟则返回 True, 否则返回 False。</li>
+<li>isdigit()：如果字符串只包含数字则返回 True 否则返回 False。</li>
+<li>isalnum()：如果字符串⾄少有⼀个字符并且所有字符都是字⺟或数字则返 回 True,否则返回 False。</li>
+<li>isspace()：如果字符串中只包含空⽩，则返回 True，否则返回 False。</li>
+</ul>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -562,7 +692,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://www.guixinchn.cn/posts/3db8.html">https://www.guixinchn.cn/posts/3db8.html</a>
+                    <a href="https://www.guixinchn.cn/posts/37ce.html">https://www.guixinchn.cn/posts/37ce.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -600,12 +730,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Linux/">
-                                    <span class="chip bg-color">Linux</span>
-                                </a>
-                            
-                                <a href="/tags/wordpress/">
-                                    <span class="chip bg-color">wordpress</span>
+                                <a href="/tags/Python/">
+                                    <span class="chip bg-color">Python</span>
                                 </a>
                             
                         </div>
@@ -1086,7 +1212,7 @@
         repo: 'BlogTalk',
         owner: 'guixinchn',
         admin: "guixinchn",
-        id: '2020-03-18T21-03-51',
+        id: '2020-09-13T00-30-17',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -1106,47 +1232,52 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/posts/cfdf.html">
+                <a href="/posts/37ce.html">
                     <div class="card-image">
                         
-                        <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200805120847.png" class="responsive-img" alt="Navicat Premium 安装破解">
+                        <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/Python.jpg" class="responsive-img" alt="Python_字符串">
                         
-                        <span class="card-title">Navicat Premium 安装破解</span>
+                        <span class="card-title">Python_字符串</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            下载软件软件官网 : https://www.navicat.com.cn/
-Navicat Premium 12 下载地址:https://www.lanzous.com/i9j0syf 密码:7pup
-Navicat Premium 1
+                            定义字符串⼀对引号字符串或三引号字符串，如果需要用到引号则需要在前面增加”/“转义字符，三引号形式的字符串⽀持换⾏。
+a = 'i'
+b = "also"
+c = '''like'''
+d = """python"""
+e = 'i\'am
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-03-28
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-09-13
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/" class="post-category">
-                                    软件分享
+                            <a href="/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/" class="post-category">
+                                    汇编语言
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Navicat-Premium/">
-                        <span class="chip bg-color">Navicat Premium</span>
+                    <a href="/tags/Python/">
+                        <span class="chip bg-color">Python</span>
                     </a>
                     
                 </div>
@@ -1160,27 +1291,23 @@ Navicat Premium 1
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/posts/239d.html">
+                <a href="/posts/608a.html">
                     <div class="card-image">
                         
-                        <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200810214549.jpg" class="responsive-img" alt="Linux安装配置PHPmyadmin">
+                        <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/august/20200824225845.jpg" class="responsive-img" alt="Linux教学资源服务器构建">
                         
-                        <span class="card-title">Linux安装配置PHPmyadmin</span>
+                        <span class="card-title">Linux教学资源服务器构建</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            下载zip安装包进官网下载zip安装包
-
-wget https://files.phpmyadmin.net/phpMyAdmin/5.0.1/phpMyAdmin-5.0.1-all-languages.zip
-安装解压工具
-yum in
+                            1. 需求分析1.1 课题简介随着计算机互联网的迅速发展，大多数学校已经实现教学的信息化，从传统的黑板教学方式转变为现阶段的多媒体教学，教学的资源，素材课件，甚至学生的作业也都实现数字化，为了实现这一功能，运用课程所学知识，构建一种基于 L
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-11
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-08-24
                             </span>
                         <span class="publish-author">
                             
@@ -1199,10 +1326,6 @@ yum in
                     
                     <a href="/tags/Linux/">
                         <span class="chip bg-color">Linux</span>
-                    </a>
-                    
-                    <a href="/tags/PHPmyadmin/">
-                        <span class="chip bg-color">PHPmyadmin</span>
                     </a>
                     
                 </div>
