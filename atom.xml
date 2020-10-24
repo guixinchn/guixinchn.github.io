@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.guixinchn.cn/"/>
-  <updated>2020-09-29T14:36:36.055Z</updated>
+  <updated>2020-10-24T11:20:16.400Z</updated>
   <id>https://www.guixinchn.cn/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python_爬虫百度英文学习词典</title>
+    <link href="https://www.guixinchn.cn/posts/1e18.html"/>
+    <id>https://www.guixinchn.cn/posts/1e18.html</id>
+    <published>2020-10-24T11:19:34.000Z</published>
+    <updated>2020-10-24T11:20:16.400Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h5 id=&quot;主方法main&quot;&gt;&lt;a href=&quot;#主方法main&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="汇编语言" scheme="https://www.guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+    
+    
+      <category term="Python" scheme="https://www.guixinchn.cn/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>Python_字典实现简单预约系统</title>
@@ -560,39 +587,6 @@
       <category term="Java" scheme="https://www.guixinchn.cn/tags/Java/"/>
     
       <category term="Class" scheme="https://www.guixinchn.cn/tags/Class/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>java_static、final、super、this关键字的使用</title>
-    <link href="https://www.guixinchn.cn/posts/7aa2.html"/>
-    <id>https://www.guixinchn.cn/posts/7aa2.html</id>
-    <published>2020-08-05T12:32:55.000Z</published>
-    <updated>2020-08-10T16:06:06.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;static关键字&quot;&gt;&lt;a href=&quot;#static关键字&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="汇编语言" scheme="https://www.guixinchn.cn/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
-    
-    
-      <category term="Java" scheme="https://www.guixinchn.cn/tags/Java/"/>
-    
-      <category term="static" scheme="https://www.guixinchn.cn/tags/static/"/>
-    
-      <category term="final" scheme="https://www.guixinchn.cn/tags/final/"/>
-    
-      <category term="this关键字" scheme="https://www.guixinchn.cn/tags/this%E5%85%B3%E9%94%AE%E5%AD%97/"/>
     
   </entry>
   

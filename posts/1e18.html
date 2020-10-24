@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Linux安装配置PHPmyadmin, HTML,CSS,JavaScript,JQuery,java,linux等">
+    <meta name="keywords" content="Python_爬虫百度英文学习词典, HTML,CSS,JavaScript,JQuery,java,linux等">
     <meta name="description" content="本网站是个人兴趣爱好，总结分享经验，记录生活点滴的平台，希望在以后的学习旅途中，走出自己的风景。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -27,7 +27,7 @@
 </script>
 
 
-    <title>Linux安装配置PHPmyadmin | 咕咕星Blog</title>
+    <title>Python_爬虫百度英文学习词典 | 咕咕星Blog</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -322,12 +322,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200810214549.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/guixinchn/image/blog/Python.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Linux安装配置PHPmyadmin</h1>
+                    <h1 class="description center-align post-title">Python_爬虫百度英文学习词典</h1>
                 </div>
             </div>
         </div>
@@ -444,12 +444,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/PHPmyadmin/">
-                                <span class="chip bg-color">PHPmyadmin</span>
-                            </a>
-                        
-                            <a href="/tags/Linux/">
-                                <span class="chip bg-color">Linux</span>
+                            <a href="/tags/Python/">
+                                <span class="chip bg-color">Python</span>
                             </a>
                         
                     </div>
@@ -460,8 +456,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/" class="post-category">
-                                技术总结
+                            <a href="/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/" class="post-category">
+                                汇编语言
                             </a>
                         
                     </div>
@@ -473,7 +469,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-03-11
+                    2020-10-24
                 </div>
                 
 
@@ -482,14 +478,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    343
+                    765
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    3 分
                 </div>
                 
 
@@ -504,55 +500,86 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="下载zip安装包"><a href="#下载zip安装包" class="headerlink" title="下载zip安装包"></a>下载zip安装包</h2><p>进官网下载zip安装包</p>
-<p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200805103624.png"></p>
-<p><code>wget https://files.phpmyadmin.net/phpMyAdmin/5.0.1/phpMyAdmin-5.0.1-all-languages.zip</code></p>
-<p>安装解压工具</p>
-<p><code>yum install unzip –y</code></p>
-<p>解压安装包</p>
-<p><code>unzip unzip phpMyAdmin-5.0.1-all-languages.zip</code></p>
-<p>把解压好的文件移动到/www/phpMyAdmin下面</p>
-<p><code>mv phpMyAdmin-5.0.1-all-languages/* /www/phpMyAdmin/</code></p>
-<p><code>cd /www/phpMyAdmin </code></p>
-<p>复制重命名一份配置文件</p>
-<p><code>cp config.sample.inc.php config.php</code></p>
-<p>进入/etc/nginx/conf.d</p>
-<h2 id="配置文件phpMyAdmin-conf"><a href="#配置文件phpMyAdmin-conf" class="headerlink" title="配置文件phpMyAdmin.conf"></a>配置文件phpMyAdmin.conf</h2><p>创建一个配置文件phpMyAdmin.conf</p>
-<p>添加以下代码</p>
-<pre><code>server {
-      listen       880;
-      server_name  localhost;
-  root /www/phpMyAdmin;
-      location / {
-          index  index.php index.html index.htm;
-      }
-      error_page   500 502 503 504  /50x.html;
-      location = /50x.html {
-          root   html;
-      }
-      location ~ \.php$ {
-          fastcgi_pass   127.0.0.1:9000;
-          fastcgi_index  index.php;
-          fastcgi_param  SCRIPT_FILENAME  /scripts$fastcgi_script_name;
-          include        fastcgi.conf;
-      }
-}</code></pre>
-<p>在/etc/nginx/nginx.conf中引入配置文件</p>
-<p>（include conf.d/phpMyAdmin.conf;）</p>
-<p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200805103646.png"></p>
-<p>在服务器中打开安全组端口，浏览器中输入相应的ip：880进入登录页面、</p>
-<p><code>cd /www/phpMyAdmin/</code></p>
-<p><code>cp libraries/config.default.php config.inc.php</code></p>
-<p><code>vim config.inc.php</code></p>
-<h2 id="修改配置"><a href="#修改配置" class="headerlink" title="修改配置"></a>修改配置</h2><p>端口号改为3306</p>
-<p><code>$cfg['Servers'][$i]['port'] = '3306';</code></p>
-<p>修改root密码：</p>
-<p><code>$cfg['Servers'][$i]['password'] = '******';</code></p>
-<p>修改为本地地址</p>
-<p><code>$cfg['Servers'][$i]['host'] = '127.0.0.1';</code></p>
-<h2 id="重启php服务器"><a href="#重启php服务器" class="headerlink" title="重启php服务器"></a>重启php服务器</h2><p><code>systemctl restart php-fpm</code></p>
-<p>然后就能访问PHPmyadmin数据库了</p>
-<p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200805103710.png"></p>
+                <h5 id="主方法main"><a href="#主方法main" class="headerlink" title="主方法main"></a>主方法main</h5><p>定义主函数main，程序的入口，首先导入io包，用os.path.exists判断字典文件是否存在，如果不存在则新建一个，然后进入循环中，让用户输入相应的数字，执行相应的功能。</p>
+<pre class=" language-python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    flag <span class="token operator">=</span> os<span class="token punctuation">.</span>path<span class="token punctuation">.</span>exists<span class="token punctuation">(</span><span class="token string">'dictionary.csv'</span><span class="token punctuation">)</span>
+    <span class="token keyword">if</span> flag <span class="token operator">==</span> <span class="token boolean">False</span><span class="token punctuation">:</span>
+        d <span class="token operator">=</span> open<span class="token punctuation">(</span><span class="token string">'dictionary.csv'</span><span class="token punctuation">,</span> <span class="token string">'w'</span><span class="token punctuation">)</span>
+        d<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token keyword">while</span> <span class="token string">'true'</span><span class="token punctuation">:</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'---英语学习词典(1添加2查询3退出)---'</span><span class="token punctuation">)</span>
+        num <span class="token operator">=</span> input<span class="token punctuation">(</span><span class="token string">'请输入相应功能的编号：'</span><span class="token punctuation">)</span>
+        <span class="token keyword">if</span> num <span class="token operator">==</span> <span class="token string">'1'</span><span class="token punctuation">:</span>
+            inputWord<span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token keyword">elif</span> num <span class="token operator">==</span> <span class="token string">'2'</span><span class="token punctuation">:</span>
+            serachWord<span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token keyword">elif</span> num <span class="token operator">==</span> <span class="token string">'3'</span><span class="token punctuation">:</span>
+            <span class="token keyword">break</span>
+        <span class="token keyword">else</span><span class="token punctuation">:</span>
+            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'输入有误，请重新输入'</span><span class="token punctuation">)</span></code></pre>
+<h5 id="inputWord方法"><a href="#inputWord方法" class="headerlink" title="inputWord方法"></a>inputWord方法</h5><p>inputWord这是一个添加英语和对应中文意思的方法，打开这个文件，先把光标移动到开头，通过一行一行扫描，然后把行内的英语单词通过分片的形式分割出来，判断用户输入的英文单词字典中是否存在，如果存在则提示，并输入对应的翻译，如果不存在则再进行添加进字典里面</p>
+<pre class=" language-python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">inputWord</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">with</span> open<span class="token punctuation">(</span><span class="token string">'dictionary.csv'</span><span class="token punctuation">,</span> <span class="token string">'a+'</span><span class="token punctuation">,</span> encoding<span class="token operator">=</span><span class="token string">'utf-8'</span><span class="token punctuation">,</span> newline<span class="token operator">=</span><span class="token string">''</span><span class="token punctuation">)</span> <span class="token keyword">as</span> csv_file<span class="token punctuation">:</span>
+        csv_file<span class="token punctuation">.</span>seek<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span>
+        e <span class="token operator">=</span> input<span class="token punctuation">(</span><span class="token string">'请输入你要录入的英语单词：'</span><span class="token punctuation">)</span>
+        files <span class="token operator">=</span> csv_file<span class="token punctuation">.</span>readlines<span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token keyword">for</span> file <span class="token keyword">in</span> files<span class="token punctuation">:</span>
+            file <span class="token operator">=</span> file<span class="token punctuation">.</span>replace<span class="token punctuation">(</span><span class="token string">'\n'</span><span class="token punctuation">,</span> <span class="token string">''</span><span class="token punctuation">)</span>
+            ls <span class="token operator">=</span> file<span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token string">'-'</span><span class="token punctuation">)</span>
+            <span class="token keyword">if</span> ls<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">==</span> e<span class="token punctuation">:</span>
+                <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'该单词已添加过了，中文意思是：'</span> <span class="token operator">+</span> ls<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+                <span class="token keyword">return</span>
+        <span class="token comment" spellcheck="true"># 字典找不到单词，开始添加</span>
+        csv_file<span class="token punctuation">.</span>seek<span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span>
+        c <span class="token operator">=</span> input<span class="token punctuation">(</span><span class="token string">'请输入对应的中文意思：'</span><span class="token punctuation">)</span>
+        line <span class="token operator">=</span> <span class="token string">'\n'</span> <span class="token operator">+</span> e <span class="token operator">+</span> <span class="token string">'-'</span> <span class="token operator">+</span> c
+        csv_file<span class="token punctuation">.</span>writelines<span class="token punctuation">(</span>line<span class="token punctuation">)</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span>e <span class="token operator">+</span> <span class="token string">'已添加成功'</span><span class="token punctuation">)</span></code></pre>
+<h5 id="serachWord方法"><a href="#serachWord方法" class="headerlink" title="serachWord方法"></a>serachWord方法</h5><p>serachWord这是查找功能，用户输入英文单词，查询中文意思，打开字典文件，每行扫描，提取前面的英文单词，遍历与用户输入的单词匹配，如果不存在则提示，没有找到这个单词，然后给用户提供是否需要通过百度翻译，查看意思，并且翻译结束后可以添加进字典中</p>
+<pre class=" language-python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">serachWord</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    word <span class="token operator">=</span> input<span class="token punctuation">(</span><span class="token string">'请输入你要查询的英语单词'</span><span class="token punctuation">)</span>
+    <span class="token keyword">with</span> open<span class="token punctuation">(</span><span class="token string">'dictionary.csv'</span><span class="token punctuation">,</span> <span class="token string">'r+'</span><span class="token punctuation">,</span> encoding<span class="token operator">=</span><span class="token string">'utf-8'</span><span class="token punctuation">)</span> <span class="token keyword">as</span> csv_file<span class="token punctuation">:</span>
+        files <span class="token operator">=</span> csv_file<span class="token punctuation">.</span>readlines<span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token comment" spellcheck="true"># print(files)</span>
+        <span class="token comment" spellcheck="true"># print(type(files))</span>
+        <span class="token keyword">for</span> file <span class="token keyword">in</span> files<span class="token punctuation">:</span>
+            file <span class="token operator">=</span> file<span class="token punctuation">.</span>replace<span class="token punctuation">(</span><span class="token string">'\n'</span><span class="token punctuation">,</span> <span class="token string">''</span><span class="token punctuation">)</span>
+            ls <span class="token operator">=</span> file<span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token string">'-'</span><span class="token punctuation">)</span>
+            <span class="token comment" spellcheck="true"># print(ls)</span>
+            <span class="token keyword">if</span> ls<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">==</span> word<span class="token punctuation">:</span>
+                <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'中文意思是：'</span> <span class="token operator">+</span> ls<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+                <span class="token keyword">return</span>
+        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'字典库中未找到这个单词'</span><span class="token punctuation">)</span>
+        flag <span class="token operator">=</span> input<span class="token punctuation">(</span><span class="token string">'是否要通过百度翻译查看翻译：(输入Y/y查询)'</span><span class="token punctuation">)</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>flag <span class="token operator">==</span> <span class="token string">'Y'</span><span class="token punctuation">)</span> <span class="token operator">|</span> <span class="token punctuation">(</span>flag <span class="token operator">==</span> <span class="token string">'y'</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+            chn <span class="token operator">=</span> baudu<span class="token punctuation">(</span>word<span class="token punctuation">)</span>
+            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">'百度翻译：'</span> <span class="token operator">+</span> chn<span class="token punctuation">)</span>
+            <span class="token keyword">if</span> chn <span class="token operator">!=</span> <span class="token string">'出错了'</span><span class="token punctuation">:</span>
+                flag2 <span class="token operator">=</span> input<span class="token punctuation">(</span><span class="token string">'是否要添加进词典：(输入Y/y添加)'</span><span class="token punctuation">)</span>
+                <span class="token keyword">if</span> <span class="token punctuation">(</span>flag2 <span class="token operator">==</span> <span class="token string">'Y'</span><span class="token punctuation">)</span> <span class="token operator">|</span> <span class="token punctuation">(</span>flag2 <span class="token operator">==</span> <span class="token string">'y'</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+                    line <span class="token operator">=</span> <span class="token string">'\n'</span> <span class="token operator">+</span> word <span class="token operator">+</span> <span class="token string">'-'</span> <span class="token operator">+</span> chn
+                    csv_file<span class="token punctuation">.</span>writelines<span class="token punctuation">(</span>line<span class="token punctuation">)</span>
+                    <span class="token keyword">print</span><span class="token punctuation">(</span>word <span class="token operator">+</span> <span class="token string">'已添加成功'</span><span class="token punctuation">)</span></code></pre>
+<h5 id="baidu方法"><a href="#baidu方法" class="headerlink" title="baidu方法"></a>baidu方法</h5><p>baidu这个方法，是通过百度翻译官网爬虫实现，用到requests库</p>
+<pre class=" language-python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">baudu</span><span class="token punctuation">(</span>word<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    url <span class="token operator">=</span> <span class="token string">'https://fanyi.baidu.com/sug'</span>
+    headers <span class="token operator">=</span> <span class="token punctuation">{</span>
+        <span class="token string">'user-agent'</span><span class="token punctuation">:</span> <span class="token string">'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36'</span>
+    <span class="token punctuation">}</span>
+    data <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'kw'</span><span class="token punctuation">:</span> word<span class="token punctuation">}</span>
+    <span class="token keyword">try</span><span class="token punctuation">:</span>
+        r <span class="token operator">=</span> requests<span class="token punctuation">.</span>post<span class="token punctuation">(</span>url<span class="token punctuation">,</span> data<span class="token operator">=</span>data<span class="token punctuation">,</span> headers<span class="token operator">=</span>headers<span class="token punctuation">,</span> timeout<span class="token operator">=</span><span class="token number">5</span><span class="token punctuation">)</span>
+        r<span class="token punctuation">.</span>raise_for_status<span class="token punctuation">(</span><span class="token punctuation">)</span>
+        data <span class="token operator">=</span> r<span class="token punctuation">.</span>json<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token string">'data'</span><span class="token punctuation">]</span>
+        <span class="token keyword">for</span> i <span class="token keyword">in</span> data<span class="token punctuation">:</span>
+            <span class="token keyword">if</span> i<span class="token punctuation">[</span><span class="token string">'k'</span><span class="token punctuation">]</span> <span class="token operator">==</span> word<span class="token punctuation">:</span>
+                <span class="token keyword">return</span> i<span class="token punctuation">[</span><span class="token string">'v'</span><span class="token punctuation">]</span>
+            <span class="token keyword">else</span><span class="token punctuation">:</span>
+                <span class="token keyword">return</span> <span class="token string">'出错了'</span>
+    <span class="token keyword">except</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token string">'出错了'</span></code></pre>
+<h5 id="实验结果："><a href="#实验结果：" class="headerlink" title="实验结果："></a>实验结果：</h5><p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/guangong/20201024185731.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/guangong/20201024185750.png"></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -596,7 +623,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://www.guixinchn.cn/posts/239d.html">https://www.guixinchn.cn/posts/239d.html</a>
+                    <a href="https://www.guixinchn.cn/posts/1e18.html">https://www.guixinchn.cn/posts/1e18.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -634,12 +661,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/PHPmyadmin/">
-                                    <span class="chip bg-color">PHPmyadmin</span>
-                                </a>
-                            
-                                <a href="/tags/Linux/">
-                                    <span class="chip bg-color">Linux</span>
+                                <a href="/tags/Python/">
+                                    <span class="chip bg-color">Python</span>
                                 </a>
                             
                         </div>
@@ -1120,7 +1143,7 @@
         repo: 'BlogTalk',
         owner: 'guixinchn',
         admin: "guixinchn",
-        id: '2020-03-11T21-34-36',
+        id: '2020-10-24T19-19-34',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -1140,53 +1163,49 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/posts/3db8.html">
+                <a href="/posts/1e18.html">
                     <div class="card-image">
                         
-                        <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://ythan.top/wp-content/uploads/2020/03/c67bc342dd9c426.jpg" class="responsive-img" alt="linxu系统安装WordPress">
+                        <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/Python.jpg" class="responsive-img" alt="Python_爬虫百度英文学习词典">
                         
-                        <span class="card-title">linxu系统安装WordPress</span>
+                        <span class="card-title">Python_爬虫百度英文学习词典</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            安装前准备确保在安装wordpress之前，安装了web服务器比如：nginx，php，数据库比如：mysql
-没有安装的翻我之前的博文有安装方法
-下载安装包进入官网下载压缩包
-
-wget https://wordpress.org/lat
+                            主方法main定义主函数main，程序的入口，首先导入io包，用os.path.exists判断字典文件是否存在，如果不存在则新建一个，然后进入循环中，让用户输入相应的数字，执行相应的功能。
+def main():
+    flag = o
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-03-18
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-24
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/" class="post-category">
-                                    关于博客
+                            <a href="/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/" class="post-category">
+                                    汇编语言
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Linux/">
-                        <span class="chip bg-color">Linux</span>
-                    </a>
-                    
-                    <a href="/tags/wordpress/">
-                        <span class="chip bg-color">wordpress</span>
+                    <a href="/tags/Python/">
+                        <span class="chip bg-color">Python</span>
                     </a>
                     
                 </div>
@@ -1200,32 +1219,34 @@ wget https://wordpress.org/lat
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/posts/ba76.html">
+                <a href="/posts/db34.html">
                     <div class="card-image">
                         
-                        <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/before/20200804212744.jpg" class="responsive-img" alt="Linux系统安装MySQL详细教程">
+                        <img src="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/loading.gif" data-original="https://cdn.jsdelivr.net/gh/guixinchn/image/blog/Python.jpg" class="responsive-img" alt="Python_字典实现简单预约系统">
                         
-                        <span class="card-title">Linux系统安装MySQL详细教程</span>
+                        <span class="card-title">Python_字典实现简单预约系统</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            下载rpm安装包首先进入MySQL官网下载rpm安装包
-用yum install mysql80-community-release-el7-3.noarch.rpm 安装
-yum repolist all|grep mysql可以看到仓库
+                            具体步骤：编写主程序使用while循环实现程序一直运行，用户输入字符数字进行判断通过if-elif-else语句控制进入不同的函数，实现不同的效果。
+
+编写预约系统主界面，和一个实验室的空列表，用于暂时存储预约信息
+
+新增实验室预约(学号、
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-04
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-09-29
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/" class="post-category">
-                                    技术总结
+                            <a href="/categories/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/" class="post-category">
+                                    汇编语言
                                 </a>
                             
                             
@@ -1235,12 +1256,8 @@ yum repolist all|grep mysql可以看到仓库
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Linux/">
-                        <span class="chip bg-color">Linux</span>
-                    </a>
-                    
-                    <a href="/tags/MySQL/">
-                        <span class="chip bg-color">MySQL</span>
+                    <a href="/tags/Python/">
+                        <span class="chip bg-color">Python</span>
                     </a>
                     
                 </div>
